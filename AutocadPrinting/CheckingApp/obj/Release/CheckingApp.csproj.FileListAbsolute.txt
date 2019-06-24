@@ -1,0 +1,13 @@
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\bin\Release\CheckingApp.exe.config
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\bin\Release\CheckingApp.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\bin\Release\CheckingApp.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\CheckingApp.exe.config
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\CheckingApp.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\CheckingApp.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Release\CheckingApp.csprojAssemblyReference.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Release\CheckingApp.Form1.resources
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Release\CheckingApp.Properties.Resources.resources
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Release\CheckingApp.csproj.GenerateResource.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Release\CheckingApp.csproj.CoreCompileInputs.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Release\CheckingApp.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Release\CheckingApp.pdb

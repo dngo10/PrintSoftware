@@ -1,0 +1,22 @@
+Init Component done
+Init 1 passed
+Init 2 passed
+Load, if passed
+Load, loop passed
+Load, get currenCad passed
+Enter Add DWG
+Enter can Get layout
+Enter Add DWG
+Enter can Get layout
+Enter Add to Grid View
+Enter AddLayoutsToGridView.
+Enter getLayouts
+Exit AddLayoutsToGridView.
+Enter publishButton_Click
+Pass checkCondition
+Enter plotting
+Enter after plotting
+Enter after plotting 1
+Enter after plotting 2
+Enter after plotting 3
+Enter after plotting 4

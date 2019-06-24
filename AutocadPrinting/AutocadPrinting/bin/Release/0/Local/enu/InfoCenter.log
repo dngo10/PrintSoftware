@@ -1,0 +1,664 @@
+2/13/2019 3:51:19 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 3:51:22 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 3:51:22 PM: Polling:2 threads started
+2/13/2019 3:51:22 PM: SubStatus: Polling...
+2/13/2019 3:51:25 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 3:52:00 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 3:52:05 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 3:52:05 PM: Polling:2 threads started
+2/13/2019 3:52:05 PM: SubStatus: Polling...
+2/13/2019 3:52:06 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 3:54:09 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 3:54:15 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 3:54:15 PM: Polling:2 threads started
+2/13/2019 3:54:15 PM: SubStatus: Polling...
+2/13/2019 3:54:16 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 3:58:05 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 3:58:11 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 3:58:11 PM: Polling:2 threads started
+2/13/2019 3:58:11 PM: SubStatus: Polling...
+2/13/2019 3:58:13 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 3:58:14 PM: Polling: All threads finished
+2/13/2019 4:00:08 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:00:10 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:00:10 PM: Polling:2 threads started
+2/13/2019 4:00:10 PM: SubStatus: Polling...
+2/13/2019 4:00:12 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:01:42 PM: SubStatus: Server Response not defined
+2/13/2019 4:01:42 PM: Polling: All threads finished
+2/13/2019 4:05:48 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:05:50 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:05:50 PM: Polling:2 threads started
+2/13/2019 4:05:50 PM: SubStatus: Polling...
+2/13/2019 4:05:52 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:06:46 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:06:52 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:06:52 PM: Polling:2 threads started
+2/13/2019 4:06:52 PM: SubStatus: Polling...
+2/13/2019 4:06:54 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:14:09 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:14:15 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:14:15 PM: Polling:2 threads started
+2/13/2019 4:14:15 PM: SubStatus: Polling...
+2/13/2019 4:14:25 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:14:25 PM: Polling: All threads finished
+2/13/2019 4:15:20 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:15:23 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:15:23 PM: Polling:2 threads started
+2/13/2019 4:15:23 PM: SubStatus: Polling...
+2/13/2019 4:15:35 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:15:36 PM: Polling: All threads finished
+2/13/2019 4:19:29 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:19:32 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:19:32 PM: Polling:2 threads started
+2/13/2019 4:19:32 PM: SubStatus: Polling...
+2/13/2019 4:19:51 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:19:51 PM: Polling: All threads finished
+2/13/2019 4:21:03 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:21:05 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:21:05 PM: Polling:2 threads started
+2/13/2019 4:21:05 PM: SubStatus: Polling...
+2/13/2019 4:24:11 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:24:17 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:24:17 PM: Polling:2 threads started
+2/13/2019 4:24:17 PM: SubStatus: Polling...
+2/13/2019 4:26:51 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:26:57 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:26:57 PM: Polling:2 threads started
+2/13/2019 4:26:57 PM: SubStatus: Polling...
+2/13/2019 4:26:58 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:26:58 PM: Polling: All threads finished
+2/13/2019 4:34:21 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:34:24 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:34:25 PM: Polling:2 threads started
+2/13/2019 4:34:25 PM: SubStatus: Polling...
+2/13/2019 4:37:17 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:37:19 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:37:19 PM: Polling:2 threads started
+2/13/2019 4:37:19 PM: SubStatus: Polling...
+2/13/2019 4:37:52 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:38:51 PM: SubStatus: Server Response not defined
+2/13/2019 4:38:51 PM: Polling: All threads finished
+2/13/2019 4:47:36 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:47:42 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:47:42 PM: Polling:2 threads started
+2/13/2019 4:47:42 PM: SubStatus: Polling...
+2/13/2019 4:48:14 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:48:14 PM: Polling: All threads finished
+2/13/2019 4:56:06 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:56:08 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:56:09 PM: Polling:2 threads started
+2/13/2019 4:56:09 PM: SubStatus: Polling...
+2/13/2019 4:57:24 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:57:30 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:57:30 PM: Polling:2 threads started
+2/13/2019 4:57:30 PM: SubStatus: Polling...
+2/13/2019 4:58:02 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 4:58:26 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 4:58:33 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 4:58:33 PM: Polling:2 threads started
+2/13/2019 4:58:33 PM: SubStatus: Polling...
+2/13/2019 5:02:06 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:02:13 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:02:13 PM: Polling:2 threads started
+2/13/2019 5:02:13 PM: SubStatus: Polling...
+2/13/2019 5:03:29 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:03:35 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:03:35 PM: Polling:2 threads started
+2/13/2019 5:03:35 PM: SubStatus: Polling...
+2/13/2019 5:04:08 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 5:05:17 PM: SubStatus: Server Response not defined
+2/13/2019 5:05:17 PM: Polling: All threads finished
+2/13/2019 5:11:29 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:11:36 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:11:36 PM: Polling:2 threads started
+2/13/2019 5:11:36 PM: SubStatus: Polling...
+2/13/2019 5:12:08 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 5:14:56 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:15:02 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:15:02 PM: Polling:2 threads started
+2/13/2019 5:15:02 PM: SubStatus: Polling...
+2/13/2019 5:15:43 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:15:50 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:15:50 PM: Polling:2 threads started
+2/13/2019 5:15:50 PM: SubStatus: Polling...
+2/13/2019 5:16:22 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 5:19:17 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:19:23 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:19:23 PM: Polling:2 threads started
+2/13/2019 5:19:23 PM: SubStatus: Polling...
+2/13/2019 5:19:55 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 5:23:01 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:23:08 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:23:08 PM: Polling:2 threads started
+2/13/2019 5:23:08 PM: SubStatus: Polling...
+2/13/2019 5:23:40 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 5:30:23 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:30:30 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:30:30 PM: Polling:2 threads started
+2/13/2019 5:30:30 PM: SubStatus: Polling...
+2/13/2019 5:31:02 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/13/2019 5:32:02 PM: SubStatus: Server Response not defined
+2/13/2019 5:32:02 PM: Polling: All threads finished
+2/13/2019 5:32:45 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/13/2019 5:32:52 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/13/2019 5:32:52 PM: Polling:2 threads started
+2/13/2019 5:32:52 PM: SubStatus: Polling...
+2/13/2019 5:32:52 PM: Polling: All threads finished
+2/13/2019 5:33:24 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/14/2019 9:02:44 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/14/2019 9:02:51 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/14/2019 9:02:51 AM: Polling:2 threads started
+2/14/2019 9:02:51 AM: SubStatus: Polling...
+2/14/2019 9:03:24 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/14/2019 9:04:24 AM: SubStatus: Server Response not defined
+2/14/2019 9:04:24 AM: Polling: All threads finished
+2/14/2019 6:17:33 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/14/2019 6:17:40 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/14/2019 6:17:40 PM: Polling:2 threads started
+2/14/2019 6:17:40 PM: SubStatus: Polling...
+2/14/2019 6:21:28 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/14/2019 6:21:34 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/14/2019 6:24:40 PM: Polling:2 threads started
+2/14/2019 6:24:40 PM: SubStatus: Polling...
+2/14/2019 6:24:40 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/14/2019 6:26:22 PM: SubStatus: Server Response not defined
+2/14/2019 6:30:32 PM: Polling: All threads finished
+2/15/2019 8:24:17 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/15/2019 8:24:25 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/15/2019 8:24:25 AM: Polling:2 threads started
+2/15/2019 8:24:25 AM: SubStatus: Polling...
+2/15/2019 8:24:26 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/15/2019 8:25:57 AM: SubStatus: Server Response not defined
+2/15/2019 8:26:06 AM: Polling: All threads finished
+2/15/2019 8:39:27 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/15/2019 8:39:33 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/15/2019 8:39:33 AM: Polling:2 threads started
+2/15/2019 8:39:33 AM: SubStatus: Polling...
+2/15/2019 8:40:06 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/15/2019 8:40:06 AM: Polling: All threads finished
+2/15/2019 8:49:28 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/15/2019 8:49:31 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/15/2019 8:49:31 AM: Polling:2 threads started
+2/15/2019 8:49:31 AM: SubStatus: Polling...
+2/15/2019 8:49:48 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/15/2019 8:49:54 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/15/2019 8:53:05 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/15/2019 8:53:11 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/15/2019 8:54:22 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/15/2019 8:54:28 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/15/2019 8:56:46 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/15/2019 8:56:54 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/15/2019 8:56:54 AM: Polling:2 threads started
+2/15/2019 8:56:54 AM: SubStatus: Polling...
+2/15/2019 8:57:26 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/15/2019 8:57:26 AM: Polling: All threads finished
+2/18/2019 10:13:54 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/18/2019 10:14:02 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/18/2019 10:14:02 AM: Polling:2 threads started
+2/18/2019 10:14:02 AM: SubStatus: Polling...
+2/18/2019 11:15:11 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/18/2019 11:15:13 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/18/2019 11:15:13 AM: Polling:2 threads started
+2/18/2019 11:15:13 AM: SubStatus: Polling...
+2/18/2019 11:16:07 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/18/2019 11:16:13 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/18/2019 11:16:13 AM: Polling:2 threads started
+2/18/2019 11:16:13 AM: SubStatus: Polling...
+2/18/2019 11:16:14 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/18/2019 11:22:41 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/18/2019 11:22:48 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/18/2019 11:22:48 AM: Polling:2 threads started
+2/18/2019 11:22:48 AM: SubStatus: Polling...
+2/18/2019 11:23:20 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/18/2019 11:25:17 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/18/2019 11:25:23 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/18/2019 11:25:23 AM: Polling:2 threads started
+2/18/2019 11:25:23 AM: SubStatus: Polling...
+2/18/2019 11:25:24 AM: Polling: All threads finished
+2/18/2019 11:25:25 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/18/2019 3:21:28 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/18/2019 3:21:31 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/18/2019 3:21:31 PM: Polling:2 threads started
+2/18/2019 3:21:31 PM: SubStatus: Polling...
+2/18/2019 3:21:32 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/18/2019 3:23:03 PM: SubStatus: Server Response not defined
+2/18/2019 3:23:03 PM: Polling: All threads finished
+2/18/2019 3:41:19 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/18/2019 3:41:21 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/18/2019 3:41:21 PM: Polling:2 threads started
+2/18/2019 3:41:21 PM: SubStatus: Polling...
+2/18/2019 3:41:22 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/18/2019 3:42:53 PM: SubStatus: Server Response not defined
+2/18/2019 3:42:53 PM: Polling: All threads finished
+2/19/2019 1:33:49 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/19/2019 1:33:56 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/19/2019 1:33:56 PM: Polling:2 threads started
+2/19/2019 1:33:56 PM: SubStatus: Polling...
+2/19/2019 1:33:57 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/19/2019 1:34:59 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/19/2019 1:35:01 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/19/2019 1:35:01 PM: Polling:2 threads started
+2/19/2019 1:35:01 PM: SubStatus: Polling...
+2/19/2019 2:09:07 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/19/2019 2:09:10 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/19/2019 2:09:10 PM: Polling:2 threads started
+2/19/2019 2:09:10 PM: SubStatus: Polling...
+2/19/2019 2:09:11 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/19/2019 2:09:13 PM: Polling: All threads finished
+2/19/2019 2:31:35 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/19/2019 2:31:37 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/19/2019 2:31:38 PM: Polling:2 threads started
+2/19/2019 2:31:38 PM: SubStatus: Polling...
+2/19/2019 2:32:10 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/19/2019 2:47:29 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/19/2019 2:47:36 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/19/2019 2:47:36 PM: Polling:2 threads started
+2/19/2019 2:47:36 PM: SubStatus: Polling...
+2/19/2019 2:47:37 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/19/2019 3:13:40 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/19/2019 3:13:43 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/19/2019 3:13:43 PM: Polling:2 threads started
+2/19/2019 3:13:43 PM: SubStatus: Polling...
+2/19/2019 3:13:45 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/19/2019 3:15:15 PM: SubStatus: Server Response not defined
+2/19/2019 3:15:15 PM: Polling: All threads finished
+2/20/2019 8:30:34 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/20/2019 8:30:42 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/20/2019 8:30:42 AM: Polling:2 threads started
+2/20/2019 8:30:42 AM: SubStatus: Polling...
+2/20/2019 8:31:14 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/20/2019 8:32:14 AM: SubStatus: Server Response not defined
+2/20/2019 8:32:14 AM: Polling: All threads finished
+2/20/2019 4:21:35 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/20/2019 4:21:38 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/20/2019 4:21:38 PM: Polling:2 threads started
+2/20/2019 4:21:38 PM: SubStatus: Polling...
+2/20/2019 4:22:10 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/20/2019 4:23:05 PM: SubStatus: Server Response not defined
+2/20/2019 4:23:05 PM: Polling: All threads finished
+2/21/2019 2:23:51 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/21/2019 2:23:58 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/21/2019 2:23:58 PM: Polling:2 threads started
+2/21/2019 2:23:58 PM: SubStatus: Polling...
+2/21/2019 2:24:00 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/21/2019 2:24:00 PM: Polling: All threads finished
+2/21/2019 2:45:32 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/21/2019 2:45:39 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/21/2019 2:45:39 PM: Polling:2 threads started
+2/21/2019 2:45:39 PM: SubStatus: Polling...
+2/21/2019 2:45:40 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/21/2019 2:45:40 PM: Polling: All threads finished
+2/21/2019 5:02:06 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/21/2019 5:02:08 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/21/2019 5:02:08 PM: Polling:2 threads started
+2/21/2019 5:02:08 PM: SubStatus: Polling...
+2/21/2019 5:02:41 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/21/2019 5:02:41 PM: Polling: All threads finished
+2/21/2019 5:05:29 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/21/2019 5:05:37 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/21/2019 5:05:37 PM: Polling:2 threads started
+2/21/2019 5:05:37 PM: SubStatus: Polling...
+2/21/2019 5:05:37 PM: Polling: All threads finished
+2/21/2019 5:06:09 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/21/2019 5:22:43 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/21/2019 5:22:51 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/21/2019 5:22:51 PM: Polling:2 threads started
+2/21/2019 5:22:51 PM: SubStatus: Polling...
+2/21/2019 5:22:51 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/21/2019 5:22:51 PM: Polling: All threads finished
+2/21/2019 5:25:32 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/21/2019 5:25:40 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/21/2019 5:25:40 PM: Polling:2 threads started
+2/21/2019 5:25:40 PM: SubStatus: Polling...
+2/21/2019 5:25:40 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/21/2019 5:25:40 PM: Polling: All threads finished
+2/21/2019 5:45:25 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/21/2019 5:45:27 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/21/2019 5:45:27 PM: Polling:2 threads started
+2/21/2019 5:45:27 PM: SubStatus: Polling...
+2/21/2019 5:45:27 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/21/2019 5:46:59 PM: SubStatus: Server Response not defined
+2/21/2019 5:46:59 PM: Polling: All threads finished
+2/22/2019 8:36:32 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/22/2019 8:36:39 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/22/2019 8:36:39 AM: Polling:2 threads started
+2/22/2019 8:36:39 AM: SubStatus: Polling...
+2/22/2019 8:37:11 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/26/2019 9:14:01 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/26/2019 9:14:08 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/26/2019 9:14:09 AM: Polling:2 threads started
+2/26/2019 9:14:09 AM: SubStatus: Polling...
+2/26/2019 9:14:41 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/26/2019 9:14:41 AM: Polling: All threads finished
+2/26/2019 11:25:14 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/26/2019 11:25:17 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/26/2019 11:25:17 AM: Polling:2 threads started
+2/26/2019 11:25:17 AM: SubStatus: Polling...
+2/26/2019 11:25:18 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/26/2019 6:08:12 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/26/2019 6:08:14 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/26/2019 6:08:15 PM: Polling:2 threads started
+2/26/2019 6:08:15 PM: SubStatus: Polling...
+2/26/2019 6:08:15 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/26/2019 6:09:47 PM: SubStatus: Server Response not defined
+2/26/2019 6:09:47 PM: Polling: All threads finished
+2/27/2019 1:16:35 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/27/2019 1:16:42 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/27/2019 1:16:42 PM: Polling:2 threads started
+2/27/2019 1:16:42 PM: SubStatus: Polling...
+2/27/2019 1:16:43 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/27/2019 3:05:01 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/27/2019 3:05:07 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/27/2019 3:05:07 PM: Polling:2 threads started
+2/27/2019 3:05:07 PM: SubStatus: Polling...
+2/27/2019 5:21:40 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/27/2019 5:21:46 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/27/2019 5:21:46 PM: SubStatus: Polling...
+2/27/2019 5:21:46 PM: Polling:2 threads started
+2/27/2019 5:21:47 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/28/2019 8:11:32 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/28/2019 8:11:39 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/28/2019 8:11:39 AM: Polling:2 threads started
+2/28/2019 8:11:39 AM: SubStatus: Polling...
+2/28/2019 8:12:11 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/28/2019 9:12:21 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/28/2019 9:12:24 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/28/2019 9:12:24 AM: Polling:2 threads started
+2/28/2019 9:12:24 AM: SubStatus: Polling...
+2/28/2019 9:41:07 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/28/2019 9:41:10 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/28/2019 9:41:10 AM: Polling:2 threads started
+2/28/2019 9:41:10 AM: SubStatus: Polling...
+2/28/2019 9:41:46 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/28/2019 9:41:49 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/28/2019 9:41:49 AM: Polling:2 threads started
+2/28/2019 9:41:49 AM: SubStatus: Polling...
+2/28/2019 9:41:50 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+2/28/2019 9:53:15 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+2/28/2019 9:53:22 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+2/28/2019 9:53:22 AM: Polling:2 threads started
+2/28/2019 9:53:22 AM: SubStatus: Polling...
+2/28/2019 9:53:23 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+3/1/2019 9:37:07 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+3/1/2019 9:37:14 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+3/1/2019 9:37:14 AM: Polling:2 threads started
+3/1/2019 9:37:14 AM: SubStatus: Polling...
+3/1/2019 9:37:15 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+3/13/2019 1:24:54 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+3/13/2019 1:24:56 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+3/13/2019 1:24:56 PM: Polling:2 threads started
+3/13/2019 1:24:56 PM: SubStatus: Polling...
+3/13/2019 1:24:57 PM: Polling: All threads finished
+3/13/2019 1:24:57 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+4/17/2019 10:59:10 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+4/17/2019 10:59:18 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+4/17/2019 10:59:18 AM: Polling:2 threads started
+4/17/2019 10:59:18 AM: SubStatus: Polling...
+5/2/2019 8:00:52 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+5/2/2019 8:01:00 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+5/2/2019 8:01:00 AM: Polling:2 threads started
+5/2/2019 8:01:00 AM: SubStatus: Polling...
+6/13/2019 9:30:18 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/13/2019 9:30:26 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/13/2019 9:30:26 AM: Polling:2 threads started
+6/13/2019 9:30:26 AM: SubStatus: Polling...
+6/13/2019 9:30:27 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/13/2019 9:31:59 AM: SubStatus: Server Response not defined
+6/13/2019 9:31:59 AM: Polling: All threads finished
+6/13/2019 9:34:35 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/13/2019 9:34:43 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/13/2019 9:34:45 AM: Polling:2 threads started
+6/13/2019 9:34:45 AM: SubStatus: Polling...
+6/13/2019 9:34:45 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/13/2019 9:36:17 AM: SubStatus: Server Response not defined
+6/13/2019 9:36:17 AM: Polling: All threads finished
+6/13/2019 10:09:29 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/13/2019 10:09:35 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/13/2019 10:09:35 AM: Polling:2 threads started
+6/13/2019 10:09:35 AM: SubStatus: Polling...
+6/13/2019 10:09:36 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/13/2019 10:11:08 AM: SubStatus: Server Response not defined
+6/13/2019 10:11:08 AM: Polling: All threads finished
+6/18/2019 9:34:59 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/18/2019 9:35:13 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/18/2019 9:35:13 AM: Polling:2 threads started
+6/18/2019 9:35:13 AM: SubStatus: Polling...
+6/18/2019 9:35:13 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/18/2019 9:35:13 AM: Polling: All threads finished
+6/18/2019 9:44:06 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/18/2019 9:44:15 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/18/2019 9:44:16 AM: Polling:2 threads started
+6/18/2019 9:44:16 AM: SubStatus: Polling...
+6/18/2019 9:44:16 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/18/2019 9:44:16 AM: Polling: All threads finished
+6/20/2019 11:44:26 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/20/2019 11:44:32 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/20/2019 11:44:32 AM: Polling:2 threads started
+6/20/2019 11:44:32 AM: SubStatus: Polling...
+6/20/2019 11:44:32 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/20/2019 11:44:37 AM: Polling: All threads finished
+6/20/2019 4:47:23 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/20/2019 4:47:28 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/20/2019 4:47:28 PM: Polling:2 threads started
+6/20/2019 4:47:28 PM: SubStatus: Polling...
+6/20/2019 4:47:28 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/20/2019 4:49:20 PM: SubStatus: Server Response not defined
+6/20/2019 4:49:20 PM: Polling: All threads finished
+6/21/2019 10:51:05 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2018\R22.0\enu\Support\infocenter.xml
+6/21/2019 10:51:08 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/21/2019 10:51:09 AM: Polling:2 threads started
+6/21/2019 10:51:09 AM: SubStatus: Polling...
+6/21/2019 10:51:09 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)

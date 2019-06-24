@@ -1,0 +1,6 @@
+"VR","Version 2.0","","","","","","","","","","","","","","","","",""
+"HD","Job ID","Job Name","Sheet Set Name","Category Name","Date and Time Started","Date and Time Completed","USERID","Profile ID","SheetName","Full File Path","Selected Layout Name","Page Setup Name","Named Page Setup Path","Device Name","Plot File Path","Paper Size Name","Plotted to 3DDWF","Final Status"
+"JS","1","","","","2/20/2019 4:20:20 PM","","dngo","<<Unnamed Profile>>","","","","","","","","","",""
+"SH","1","","","","2/20/2019 4:20:20 PM","2/20/2019 4:20:24 PM","","","3999_SD-1 PODIUM-SD-1 (30x42)","C:\Users\dngo\Desktop\63999\DET\3999_SD-1 PODIUM.dwg","SD-1 (30x42)","OCE 30x42","","AutoCAD PDF (General Documentation).pc3","C:\Users\dngo\Desktop\63999\out.pdf","ARCH full bleed E1 (30.00 x 42.00 Inches)","0","Plotted","MESSAGE: Warning : The following shortcuts in the plotter search were invalid and ignored: i:\autocad_standard\plotters\Add-A-Plotter Wizard.lnk "
+"SH","1","","","","","","","","3999_SD-2-SD-2 (30x42)","C:\Users\dngo\Desktop\63999\DET\3999_SD-2.dwg","SD-2 (30x42)","OCE 30x42","","AutoCAD PDF (General Documentation).pc3","C:\Users\dngo\Desktop\63999\out.pdf","ARCH full bleed E1 (30.00 x 42.00 Inches)","0","Error(s) Did Not Plot","ERROR: Layout not found "
+"JF","1","","","","","2/20/2019 4:20:24 PM","","","","","","","","","","","","Plotted with Errors(s)"

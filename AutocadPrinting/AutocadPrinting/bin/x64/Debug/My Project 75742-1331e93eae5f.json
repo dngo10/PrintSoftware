@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "black-dragon-204406",
+  "private_key_id": "1331e93eae5fce1d58be4570f999a6a4aca607fe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/5Iufa6pruk7h\n8OzFugXf15emGSgnjuseIHj+6MMYv4kTpILlZAGvLdl7VMASG1DgTQYim2qKFa39\nbPnfTUCNHtgi7aSyR2UzozOTsatzyXbhqmI7rqZL1dZ5nndkoLwM8fIAuZ3Xdn74\nGWtN4qKtHq/SKOFCWISmfmVXUkJacdBXSpShZ4rVtHvH8Jz/RLcBlJ87tjy0q3a8\nUGUF1RYBhk2neF+BpfwUib/WAsknzjFxjL1tlOe/Pab6VZ15L/abK52XwiN7VRAV\noteGELxMxrFnnpelGyfVJZELd33Z+rmsw8/E/FTuWY4MP27tq2Vb+dR1DGSgRAtO\nbOPpbL2lAgMBAAECggEALpfm0xHIcpntV20xgJ03me92Ug1fs6M/MbR+zJ5l6Ndx\nCET0x5At3IRMf2bHsF3TmHL7X2HPT7IN6jAQyAiw+NMZdfmv+N3fE9e3yU/lqpqr\ndAX0DjvNAzLr/eHdaaChqJ8CvOxVCCEsmT9Kz8GM8G44ENZ+Q6bMpsSgBMDjfaQj\nZg1kUtmkku9d52oFTbkVALQjOSicIRqBriiGxINKa05d1CCym0k3Ua/TBNqK+DNN\nHS4BPGgPVsr8w8khZNjUcgxHFg4KCMqHXgkgIYIGykxWAxZe3fB6g06oZQHQFJXh\nbfkwjcddyu5eQUPrpM29xcRSTtJXf9zPs4dGBvGjYQKBgQDg3/kXqgc0jU7P2+1v\n/5dxNCCKUaN9ORccGmM2rPRIEhdvXs7gziukcKiswUHLP8OEzQhFhMnzvlVlX1sv\nyQB34LJrClkIRb28vP6V8l+d0naMr16hSr2HcTiDbET3v2tLd8IzWfkwGrGVV+fB\nUkonzamMrJkTS+vTp6foRr1aKQKBgQDac+lAWEWPh2FtVD6PJw2DKePLV3BGo2LC\ng8Z1rayeJVh9Cw3/ZrH6rBTdZwAGgFJGUY1sJI2RQs/4pv9M0mZlmgun215ThKsH\nud3MYrP2NKLcOQYg6lvyNvVwiHZhINniEkeRJCXyrWXEv3CluoC/HcOcPW2Z+itX\nIREdtIwvHQKBgQDEuYubdSaKhdhdpSOpqCrfYN/awaLJ6Mjb0AXdjh7CcflId+N5\n7UNmvxwAzax2V5j/M7M5xfo6ntbsMSh/vFMJjGvpkori3sgnNhtuKDQXyEfnuX+K\nkO0PcTAkYPJQ3ofJ5MHi1KJXv/J9GQLpL8kp2xSpuVDM/c0YQ4JzhHcgSQKBgQDO\n0q8jnG8/VI2JVRllrzO72w0wl7hVKJt4Tgq3n5auo+0DdlPqWvBmxEV82OfNP/Cl\nYtDicjkWLot4f6N2uDz6NL6UTb0glZrX1cGIoGqBz5PhrJuAzmH/EMmPoaNykge3\nYlcfs3m6KTEQ9a9ROSJrz2JDqmT6Q0CFXWk3FpkigQKBgEGMagb9/f++pK6Ra5um\nRzyiVcqdqMMnm2nOdsPriTcDBvxZxh5ZkMR+LVm7wthwmC92HMRqpkxthNAb1fzD\npSGBTRgt+fhYPbUvK9rWrkbi6EspuLhU/lM+xpshTB6taKX213o+QI0bALvGBiTf\n5y1xiafVwGaHReu6fESeIvp5\n-----END PRIVATE KEY-----\n",
+  "client_email": "dngo084@black-dragon-204406.iam.gserviceaccount.com",
+  "client_id": "103378992429467992217",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dngo084%40black-dragon-204406.iam.gserviceaccount.com"
+}

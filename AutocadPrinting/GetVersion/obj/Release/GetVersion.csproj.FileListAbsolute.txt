@@ -1,0 +1,17 @@
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\bin\Release\GetVersion.exe.config
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\bin\Release\GetVersion.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\bin\Release\GetVersion.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\bin\Release\Dropbox.Api.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\bin\Release\Newtonsoft.Json.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\bin\Release\Dropbox.Api.xml
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\bin\Release\Newtonsoft.Json.xml
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\GetVersion.exe.config
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\GetVersion.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\GetVersion.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.csprojAssemblyReference.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\Interop.IWshRuntimeLibrary.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.csproj.ResolveComReference.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.csproj.CoreCompileInputs.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.csproj.CopyComplete
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.pdb

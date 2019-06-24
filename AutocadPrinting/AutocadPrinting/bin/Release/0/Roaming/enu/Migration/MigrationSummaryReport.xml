@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='MigrationSummaryReport.xsl'?>
+<Log>
+  <Section Name="General">
+    <Message Category="Description">General Information</Message>
+    <Message Category="SourceProduct">AutoCAD 2018 - English</Message>
+    <Message Category="DestinationProduct">AutoCAD 2019 - English</Message>
+    <Message Category="MigrationTime">6/20/2019 9:15:11 AM</Message>
+    <Message Category="RestoreText">You can restore the default AutoCAD 2019 - English installation settings by running "Reset Settings to Default" from the Windows Start menu-&gt;Programs-&gt;Autodesk-&gt;AutoCAD 2019 - English-&gt;Reset Settings to Default.</Message>
+  </Section>
+  <Section Name="Profiles">
+    <Message Category="Description">Profiles</Message>
+    <Message Category="MigrationItemCount">1 profiles migrated</Message>
+    <Message Category="DefaultProfileName">&lt;&lt;Unnamed Profile&gt;&gt;</Message>
+    <ProfileSection Name="&lt;&lt;Unnamed Profile&gt;&gt;">
+      <Section Name="CUI">
+        <Message Category="Description">CUI Files</Message>
+        <File Category="MainCUI">C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\acad.cuix</File>
+        <Message Category="MigrationItemCount">6 patial cui (.cuix) file migrated</Message>
+        <File Category="DetailInfo">File copied from "c:\users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support\custom.cuix" to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\custom.cuix"</File>
+        <File Category="DetailInfo">File copied from "c:\users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support\autodeskseek.cuix" to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\autodeskseek.cuix"</File>
+        <File Category="DetailInfo">File "c:\users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support\modeldoc.cuix" merged to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\modeldoc.cuix"</File>
+        <File Category="DetailInfo">File copied from "c:\users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support\appmanager.cuix" to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\appmanager.cuix"</File>
+        <File Category="DetailInfo">File copied from "c:\users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support\featuredapps.cuix" to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\featuredapps.cuix"</File>
+        <File Category="DetailInfo">File "c:\users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support\acetmain.cuix" merged to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\acetmain.cuix"</File>
+      </Section>
+      <Section Name="ProfileStorage">
+        <Message Category="Description">Profile Workspace File</Message>
+        <Message Category="FromPath">C:\Users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support\profiles\unnamed profile\profile.aws</Message>
+        <Message Category="ToPath">C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\Support\Profiles\Unnamed Profile\Profile.aws</Message>
+      </Section>
+      <Section Name="ToolPalettes">
+        <Message Category="Description">Tool Palettes</Message>
+        <SchemeSection Name="ToolPalette">
+          <File Category="DetailInfo">Migrated from "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2018\R22.0\enu\support\ToolPalette\AcTpCatalog.atc" to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support\ToolPalette\AcTpCatalog.atc".</File>
+          <Message Category="MigrationItemCount">1 ToolPalette catalogs migrated</Message>
+        </SchemeSection>
+        <SchemeSection Name="AuthorPalette">
+          <File Category="DetailInfo">Migrated from "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2018\R22.0\enu\Support\AuthorPalette\AcApCatalog.atc" to "C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\Support\AuthorPalette\AcApCatalog.atc".</File>
+          <Message Category="MigrationItemCount">1 AuthorPalette catalogs migrated</Message>
+        </SchemeSection>
+      </Section>
+    </ProfileSection>
+  </Section>
+  <Section Name="Shapes">
+    <Message Category="Description">Shapes</Message>
+    <Message Category="MigrationItemCount">3 custom shape files (.shx) migrated</Message>
+    <Message Category="FromPath">C:\Users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\support</Message>
+    <Message Category="ToPath">C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\support</Message>
+  </Section>
+  <Section Name="DrawingTemplates">
+    <Message Category="Description">Drawing Templates</Message>
+    <Message Category="MigrationItemCount">12 drawing templates (.dwt) migrated</Message>
+    <Message Category="FromPath">C:\Users\dngo\appdata\local\autodesk\autocad 2018\r22.0\enu\template</Message>
+    <Message Category="ToPath">C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2019\R23.0\enu\template</Message>
+  </Section>
+  <Section Name="PlotFiles">
+    <Message Category="Description">Plot Files</Message>
+    <Section Name="PlotterConfig">
+      <Message Category="Description">Plotter Configuration File</Message>
+      <Message Category="MigrationItemCount">10 plotters (.pc3) migrated</Message>
+      <Message Category="FromPath">C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2018\R22.0\enu\Plotters</Message>
+      <Message Category="ToPath">C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\Plotters\AutoCAD 2019 - English PC3 Files</Message>
+    </Section>
+    <Section Name="PMP">
+      <Message Category="Description">Plotter Model Parameters File</Message>
+      <Message Category="MigrationItemCount">6 plotters model parameters (.pmp) migrated</Message>
+      <Message Category="FromPath">C:\Users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\plotters\pmp files</Message>
+      <Message Category="ToPath">C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\plotters\pmp files</Message>
+    </Section>
+    <Section Name="PlotterStyle">
+      <Message Category="Description">Plotter Style Table File</Message>
+      <Message Category="MigrationItemCount">14 plot styles (.stb, .ctb) migrated</Message>
+      <Message Category="FromPath">C:\Users\dngo\appdata\roaming\autodesk\autocad 2018\r22.0\enu\plotters\plot styles</Message>
+      <Message Category="ToPath">C:\Users\dngo\AppData\Roaming\Autodesk\AutoCAD 2019\R23.0\enu\plotters\plot styles</Message>
+    </Section>
+  </Section>
+</Log>

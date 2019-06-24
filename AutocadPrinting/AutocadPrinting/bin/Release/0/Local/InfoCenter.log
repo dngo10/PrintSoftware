@@ -1,0 +1,46 @@
+6/20/2019 9:15:28 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2019\R23.0\enu\Support\infocenter.xml
+6/20/2019 9:15:39 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/20/2019 9:15:39 AM: Polling:2 threads started
+6/20/2019 9:15:39 AM: SubStatus: Polling...
+6/20/2019 9:15:39 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/20/2019 9:17:16 AM: SubStatus: Server Response not defined
+6/20/2019 9:17:16 AM: Polling: All threads finished
+6/20/2019 11:43:59 AM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2019\R23.0\enu\Support\infocenter.xml
+6/20/2019 11:44:02 AM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/20/2019 11:44:02 AM: Polling:2 threads started
+6/20/2019 11:44:02 AM: SubStatus: Polling...
+6/20/2019 11:44:03 AM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/20/2019 11:44:07 AM: Polling: All threads finished
+6/20/2019 1:36:28 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2019\R23.0\enu\Support\infocenter.xml
+6/20/2019 1:36:35 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/20/2019 1:36:35 PM: Polling:2 threads started
+6/20/2019 1:36:35 PM: SubStatus: Polling...
+6/20/2019 1:36:36 PM: Polling: All threads finished
+6/20/2019 1:36:36 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/20/2019 4:46:19 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2019\R23.0\enu\Support\infocenter.xml
+6/20/2019 4:46:22 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/20/2019 4:46:22 PM: Polling:2 threads started
+6/20/2019 4:46:22 PM: SubStatus: Polling...
+6/20/2019 4:46:23 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/20/2019 4:50:51 PM: Configuration Read from: C:\Users\dngo\AppData\Local\Autodesk\AutoCAD 2019\R23.0\enu\Support\infocenter.xml
+6/20/2019 4:51:01 PM: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+6/20/2019 4:51:01 PM: Polling:2 threads started
+6/20/2019 4:51:01 PM: SubStatus: Polling...
+6/20/2019 4:51:02 PM: System.Runtime.InteropServices.COMException (0x80004005): Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Autodesk.Private.InfoCenterLib.ICommCntrManager.GetChannelsAndContents(Boolean bWithContents, Boolean bSignedUpChannelsOnly)
+   at Autodesk.Private.InfoCenter.CommunicationCenter.GetChannels(ConfigurationUnitCollection& channelCollection)
+6/20/2019 4:52:53 PM: SubStatus: Server Response not defined
+6/20/2019 4:52:53 PM: Polling: All threads finished

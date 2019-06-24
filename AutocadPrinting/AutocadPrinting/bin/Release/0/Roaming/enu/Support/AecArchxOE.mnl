@@ -1,0 +1,78 @@
+;;;
+;;;     AutoCAD Architecture Release 2004 Object Enabler
+;;;     Menu Lisp File - AECARCHXOE.MNL
+;;;
+;;;     Copyright © 2003 by Autodesk, Inc.
+;;;
+;;;     Permission to use, copy, modify, and distribute this software
+;;;     for any purpose and without fee is hereby granted, provided
+;;;     that the above copyright notice appears in all copies and 
+;;;     that both that copyright notice and the limited warranty and 
+;;;     restricted rights notice below appear in all supporting 
+;;;     documentation.
+;;;
+;;;     AUTODESK PROVIDES THIS PROGRAM "AS IS" AND WITH ALL FAULTS.  
+;;;     AUTODESK SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF 
+;;;     MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE.  AUTODESK, INC. 
+;;;     DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE 
+;;;     UNINTERRUPTED OR ERROR FREE.
+;;;
+;;;     Use, duplication, or disclosure by the U.S. Government is subject to 
+;;;     restrictions set forth in FAR 52.227-19 (Commercial Computer 
+;;;     Software - Restricted Rights) and DFAR 252.227-7013(c)(1)(ii) 
+;;;     (Rights in Technical Data and Computer Software), as applicable. 
+;;;
+;;;  --------------------------------------------------------------------------
+;;;
+;;;     This file is loaded automatically following the menu AECARCHXOE.
+;;;
+(if (not (member "aeccore.crx" (arx)))
+  (progn
+    (if (findfile "aeccore.crx")
+        (arxload (findfile "aeccore.crx"))
+    )
+  )
+)
+(princ)
+;;;-----BEGIN-SIGNATURE-----
+;;; dQcAADCCB3EGCSqGSIb3DQEHAqCCB2IwggdeAgEBMQ8wDQYJKoZIhvcNAQELBQAw
+;;; CwYJKoZIhvcNAQcBoIIFBzCCBQMwggProAMCAQICEHZytCYU0up+ZBBTpYM4hJYw
+;;; DQYJKoZIhvcNAQELBQAwgYQxCzAJBgNVBAYTAlVTMR0wGwYDVQQKExRTeW1hbnRl
+;;; YyBDb3Jwb3JhdGlvbjEfMB0GA1UECxMWU3ltYW50ZWMgVHJ1c3QgTmV0d29yazE1
+;;; MDMGA1UEAxMsU3ltYW50ZWMgQ2xhc3MgMyBTSEEyNTYgQ29kZSBTaWduaW5nIENB
+;;; IC0gRzIwHhcNMTYwODA4MDAwMDAwWhcNMTcwOTAyMjM1OTU5WjCBiDELMAkGA1UE
+;;; BhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEzARBgNVBAcMClNhbiBSYWZhZWwx
+;;; FjAUBgNVBAoMDUF1dG9kZXNrLCBJbmMxHzAdBgNVBAsMFkRlc2lnbiBTb2x1dGlv
+;;; bnMgR3JvdXAxFjAUBgNVBAMMDUF1dG9kZXNrLCBJbmMwggEiMA0GCSqGSIb3DQEB
+;;; AQUAA4IBDwAwggEKAoIBAQDqmfToz8wEanfXT+H6tql3aUyaJRWCfFsYPFnGVXIl
+;;; 95fnZY3sOEfQvFkf9LVte5SwDWkjkReCGJlk4HaRYOTxkd7PkeAOOtYaUSBvULYR
+;;; lKvAbe2n+VWwo4yrWATav8d7pKlbMP9f6pYxlaZQzsq/e+pLZwptP8C9Dfrm5OVg
+;;; CIL/iPRNIuvhl9YUZvnkZYmCnihdP4AS8g4d7rfjdxzT653433nO6tgs3fNgnkQQ
+;;; k6EdROwqesgQXRlH29yRND5xNfup9KiZ7L7Nm7AiM6laNwNIjBwbG4qMWuQ2Ml7h
+;;; HzQpLaLFJRV33oHedeGSZ7OmA6+D5WoQtPpSt4YCcub5AgMBAAGjggFpMIIBZTAJ
+;;; BgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzBh
+;;; BgNVHSAEWjBYMFYGBmeBDAEEATBMMCMGCCsGAQUFBwIBFhdodHRwczovL2Quc3lt
+;;; Y2IuY29tL2NwczAlBggrBgEFBQcCAjAZDBdodHRwczovL2Quc3ltY2IuY29tL3Jw
+;;; YTAfBgNVHSMEGDAWgBTUwAYiSes5S92T4lyhuEd2CXIDWDArBgNVHR8EJDAiMCCg
+;;; HqAchhpodHRwOi8vcmIuc3ltY2IuY29tL3JiLmNybDBXBggrBgEFBQcBAQRLMEkw
+;;; HwYIKwYBBQUHMAGGE2h0dHA6Ly9yYi5zeW1jZC5jb20wJgYIKwYBBQUHMAKGGmh0
+;;; dHA6Ly9yYi5zeW1jYi5jb20vcmIuY3J0MBEGCWCGSAGG+EIBAQQEAwIEEDAWBgor
+;;; BgEEAYI3AgEbBAgwBgEBAAEB/zANBgkqhkiG9w0BAQsFAAOCAQEAwDtvZOfelquc
+;;; pqTk6GC5mkXO2Xhr2Meo+ZTVpsAgvQAi0zfpqlxdZrH+SrR0R06cixVQx/8wgty6
+;;; 0cx0h7n5YZChZYSULBLbWd64ZisZRLSfOSHfaQPMJlzfkObSiErUXli7GdngNeRv
+;;; QRBZj76uQwBY9IfizReoavOwtm1aoptvSn/cAzKdzXXe4Y9O0BFYewqgihKACWL1
+;;; 0QQQHazE6owk7WAsA5AGgIOS3RJucO+owkJEdl8yjk4A5amvbkCMkAQHNnIul/Tg
+;;; XRicNGTNCQ5RJEaa97jg7WSDp1EEHISPpPnMBACu/rxYX7CwYuw8rdZm73yDa/NN
+;;; 3BY2t4uSTjGCAi4wggIqAgEBMIGZMIGEMQswCQYDVQQGEwJVUzEdMBsGA1UEChMU
+;;; U3ltYW50ZWMgQ29ycG9yYXRpb24xHzAdBgNVBAsTFlN5bWFudGVjIFRydXN0IE5l
+;;; dHdvcmsxNTAzBgNVBAMTLFN5bWFudGVjIENsYXNzIDMgU0hBMjU2IENvZGUgU2ln
+;;; bmluZyBDQSAtIEcyAhB2crQmFNLqfmQQU6WDOISWMA0GCSqGSIb3DQEBCwUAMA0G
+;;; CSqGSIb3DQEBAQUABIIBAMEwulV68MI6FGYDZ3bkTSOErGDPJNgmB2PzGPCfZPnc
+;;; fKm32K+rGvt+TDCCd82hkepM1I/QkqExL/fQa+XSDkY4Q8074O1LkxI231gGxr1u
+;;; B81WC04sZo2tQxhxFlO1ozWNrc9P7qZEpgKOMwT7vs9SM1zJh7VD4/yhEKm0i91l
+;;; FHoxU1Hmstx1L8J5Ol03LJ26qUzpBR+TaKA2Lxxord1FT1EwuStXn6pONJ151YTR
+;;; npBC0UmM4iYPJ2I5mBHmoWnKZIAxum/ynQchCOP+Yj9jbATr0Dc0xbqU+gd89JUs
+;;; 9dyOuhwigMOfwLIjmxNeLvNEUlFPMHtSo+gMrSQJ8Q6hZzBlBgNVHQ4xXgRcNAAy
+;;; ADsAMQAvADIAMAAvADIAMAAxADcALwAxADAALwAyADAALwA1ADAALwBUAGkAbQBl
+;;; ACAAZgByAG8AbQAgAHQAaABpAHMAIABjAG8AbQBwAHUAdABlAHIAAAA=
+;;; -----END-SIGNATURE-----

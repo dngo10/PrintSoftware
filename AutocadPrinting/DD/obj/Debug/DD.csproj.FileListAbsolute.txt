@@ -1,0 +1,15 @@
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\bin\Debug\DD.exe.config
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\bin\Debug\DD.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\bin\Debug\DD.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\bin\Debug\Dropbox.Api.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\bin\Debug\Dropbox.Api.xml
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.csprojAssemblyReference.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.Form1.resources
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.Properties.Resources.resources
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.csproj.GenerateResource.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.csproj.CoreCompileInputs.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.csproj.CopyComplete
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\DD\obj\Debug\DD.pdb

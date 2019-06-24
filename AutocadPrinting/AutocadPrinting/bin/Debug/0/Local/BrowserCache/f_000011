@@ -1,0 +1,597 @@
+//////////////////////////////////////////////////////////////////////////////
+//  Copyright 2014 by Autodesk, Inc.  All rights reserved.
+//
+// This computer source code and related instructions and comments 
+// are the unpublished confidential and proprietary information of 
+// Autodesk, Inc. and are protected under applicable copyright and 
+// trade secret law.  They may not be disclosed to, copied or used 
+// by any third party without the prior written consent of Autodesk, Inc.
+//////////////////////////////////////////////////////////////////////////////
+
+/*globals $,jQuery,document, window, navigator*/
+
+/*!
+* ntp.content - Dynamic updates of new tab page content
+*/
+
+// Namespace
+var ntp = ntp || {};
+ntp.content = ntp.content || {};
+
+/**
+ * Load string table as json data
+ */
+ntp.content.applyLocalizedStrings = function(localizedStrings) {
+    // Verify string data
+    if (localizedStrings !== null) {
+        // Load localized strings and initialize text elements
+        $('*[data-text-id]').each(function() {
+            var $element = $(this);
+            $element.html(localizedStrings[$element.data('text-id')]);
+        });
+
+        $('*[data-text-map]').each(function() {
+            var $element = $(this);
+            var textMap = $element.data('text-map');
+            $.each(textMap, function(index, value) {
+                $element.attr(index, localizedStrings[value]);
+            });
+        });
+    }
+};
+/**
+ * Gets or sets the map from file type to thumbnail image
+ */
+ntp.content.thumbnail = (function() {
+    var thumbnails = {};
+    var defaultThumbnail = 'images/default_thumb.png';
+
+    // Gets or sets the settings object.
+    return function(param, param1) {
+        if ( typeof param === 'string') {
+            if ( typeof param1 === 'string') {
+                // Setting value
+                thumbnails[param] = param1;
+            } else {
+                // Getting value
+                var thumbnail = thumbnails[param];
+
+                if ( typeof thumbnail === 'string') {
+                    return thumbnail;
+                } else {
+                    return defaultThumbnail;
+                }
+            }
+
+        } else {
+            $.error('Invalid paramters.');
+        }
+    };
+})();
+
+ntp.content.tryTab = (function () {
+    var isEnabled = false;
+    var isTrial = false;
+    var productLine;
+    var productRelease;
+    var productLang;
+    var daysLeft = 0;
+    var country;
+    var basicUrl = null;
+    var settingUrl = null;
+    var isLoaded = false;
+    // Gets or sets the settings object.
+    return {
+        getLoaded: function () {
+            return isLoaded;
+        },
+
+        setTrial: function (state) {
+            isTrial = state;
+        },
+        
+        getTrial: function () {
+            return isTrial;
+        },
+        
+        applySettings: function (settings, spec){
+            if(typeof settings.widgets !== 'undefined' && typeof spec !== 'undefined'){
+                if(typeof settings.widgets.itm !== 'undefined' && typeof spec.tryTab !== 'undefined' ){
+                    if(typeof spec.tryTab.enabled === 'string' && spec.tryTab.enabled.toLowerCase() === 'yes'){
+                        if(typeof settings.widgets.itm.BasicURL === 'string')
+                            basicUrl = settings.widgets.itm.BasicURL;
+                        if(typeof spec.tryTab.settingUrl === 'string')
+                            settingUrl = spec.tryTab.settingUrl;
+
+                        //Get product information that will be used by ITM page.
+                        if(basicUrl !== null && settingUrl !== null)
+                            ntp.acad.getProductInfoAsJSON().done(ntp.utils.makeCallback(this, 'refreshProductInfoWithJSON'));
+                    }
+                }
+            }
+        },
+        
+        //Get product information from native side.
+        refreshProductInfoWithJSON: function (productInfo) {
+            var data = $.parseJSON(productInfo);
+
+            if (data.trial === true && data.productLine !== null &&
+                    data.productRelease !== null && data.productLang !== null
+                    && data.country !== null && data.daysleft >= 0) {
+                $('#tab_try .placeholder').addClass('loading');
+                //save product information
+                isTrial = true;
+                productLine = data.productLine;
+                productRelease = data.productRelease;
+                productLang = data.productLang.toLowerCase();
+                country = data.country.toLowerCase();
+                daysLeft = data.daysleft;
+                //Load try tab setting
+                $.ajax({
+                    url : settingUrl,
+                    dataType : 'jsonp',
+                    jsonpCallback : 'tryTabCallback',
+                    crossDomain : true,
+                    timeout : 5000,
+                    success : function(data) {
+                        //get setting file from ITM server
+                        //try to load ITM page.
+                        ntp.content.tryTab.loadITMPage(data);
+                    },
+                    error : function(xhr, status, error) {
+                        // Don't get settings file.
+                        $('#tab_try .placeholder').removeClass('loading');
+                    }
+                });
+            }
+        },
+        
+        //Refresh page
+        refreshTryTabWithJSON: function (licenseInfo) {
+            var data = $.parseJSON(licenseInfo);
+            if (data.type !== 2) {
+                if (isLoaded === true) {
+                    ntp.page.tabs.removeVisibleTab('tab_try', 'tab_create');
+                }
+            }
+            else {
+                if (isLoaded === false && basicUrl !== null && settingUrl !== null){
+                    ntp.acad.getProductInfoAsJSON().done(ntp.utils.makeCallback(this, 'refreshProductInfoWithJSON'));
+                }
+            }
+        },
+        
+        loadITMPage: function (data) {
+            //load ITM page into try tab.
+            if (typeof data === 'undefined' || data.enabled.toLowerCase() == "yes") {
+                if(data.country instanceof Array && data.language instanceof Array){
+                    var isSupportCountry = false;
+                    var isSupportLang = false;
+                    for(var i = 0; i < data.country.length; i++){
+                        if(data.country[i].toLowerCase() === country){
+                            isSupportCountry = true;
+                            for(var k = 0; k < data.language.length; k++){
+                                if(data.language[k].toLowerCase() === productLang){
+                                    isSupportLang = true;
+                                    break;
+                                }
+                            }
+                            break;
+                        }
+                    }
+                }
+                if (isSupportCountry && isSupportLang) {
+                    var pageUrl = basicUrl + productLine + "/" + productRelease
+                            + "/" + productLang + "?redirected2=1&d="
+                            + daysLeft + "&country=" + country;
+                    $('#try_page').attr("src", pageUrl);
+
+                    // Change current tab into Try Tab
+                    ntp.page.tabs.addVisibleTab("tab_try", true);
+                    isLoaded = true;
+                    // Move hidden try tab content to target place.
+                    var $preloaditm = $('#preload_try');
+                    if ($preloaditm !== null) {
+                        $('#tab_try .placeholder').remove();
+                        $('#tab_try .content').empty().append(
+                                $preloaditm.children());
+                        $preloaditm.remove();
+                    }
+                }
+            }
+            if(!isLoaded)
+                $('#tab_try .placeholder').removeClass('loading');
+        }
+    };
+})();
+
+/**
+ * Updates of learn tab content
+ */
+ntp.content.learnTab = (function() {
+
+    var hilightedContents = {};
+    var hasFeaturedVideo = false;
+    var hasGetStartedVideo = false;
+    var hasResource = false;
+    var hasTip = false;
+    var notificationNum = 0;
+    var $footerBadge = null;
+    var hilight = (function () {
+        return {
+            createElement: function (linkurl, uploadTime) {
+                return $('<span>').addClass('newcontent').addClass('hidden').data({
+                    url: linkurl,
+                    upload_time: new Date(uploadTime)
+                });
+            }
+        };
+    })();
+    var loadVideoList = function ($list, videos) {
+        $list.empty();
+
+        $.each(videos, function (i, video) {
+            var $preview = $('<div>').addClass('video_preview');
+            $preview.append($('<img>').addClass('thumb').attr({
+                src : video.thumb,
+                alt : 'thumbnail'
+            })).append($('<span>').addClass('overlay'));
+
+            var $title = $('<div>').addClass('title').html(video.title);
+            var $info = $('<div>').append($title, $('<div>').addClass('desc').html(video.description).append($('<div>').addClass('duration').html(video.duration)), $('<div>').css('clear', 'both'));
+
+            var $item = $('<li>').append($preview, $info).data({
+                url: video.video,
+                title: video.title,
+                upload_time: video.upload_time
+            });
+            $list.append($item);
+
+            if (typeof video.video !== 'undefined' && typeof video.upload_time !== 'undefined') {
+                var uploadTimeFromServer = new Date(video.upload_time);
+
+                if (uploadTimeFromServer > ntp.video.releasetime) {
+                    $preview.append(hilightedContents[video.video] = hilight.createElement(video.video, video.upload_time));
+                }
+            }
+
+            $item.click(ntp.utils.makeCallbackWithArgs(ntp.video, 'showPlayer', $item));
+        });
+    };
+
+    var urlIsHilightedContent = function (url) {
+        if (typeof hilightedContents[url] !== 'undefined' && !hilightedContents[url].hasClass('hidden')) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+
+    var updateSectionVideos = function (data) {
+        hasFeaturedVideo = (typeof data.featuredVideoList !== 'undefined');
+        hasGetStartedVideo = (typeof data.videoListSmall !== 'undefined');
+        
+        //Getting started videos
+        if (typeof data.videoListSmall === 'object' && data.videoListSmall.video instanceof Array) {
+            if (typeof data.videoListSmall.title === 'string') {
+                $('#getting_started h1').text(data.videoListSmall.title);
+            }
+
+            loadVideoList($('#getting_started ol'), data.videoListSmall.video);
+        } else {
+            var $gettingStarted = $("#getting_started");
+            $gettingStarted.next().remove();
+            $gettingStarted.remove();
+        }
+        //feature videos
+        if (typeof data.featuredVideoList === 'object' && data.featuredVideoList.video instanceof Array) {
+            if (typeof data.featuredVideoList.title === 'string') {
+                $('#feature_videos h1').text(data.featuredVideoList.title);
+            }
+
+            loadVideoList($('#feature_videos ol'), data.featuredVideoList.video);
+        } else {
+            var $featureVideos = $('#feature_videos');
+            $featureVideos.remove();
+        }
+        //If the Getting Started and Feature Videos are not there remove section
+        if ($('#feature_videos').length === 0 && $('#getting_started').length === 0) {
+            var $sectionVidoes = $('#section_videos');
+            $sectionVidoes.next().remove();
+            $sectionVidoes.remove();
+        }
+        //update video column height.
+        ntp.page.layout.updateVideoSectionHeight();
+    };
+
+    var updateLearnTipsSection = function (data) {
+        if (data.learnTips) {
+            hasTip = true;
+            var $tipContainer = $('#tip_container');
+            var $tipResources = $('#tip_resource_box');
+            var $tipDiv = $('<div id="tipdiv" style="position:relative">');
+
+            if (data.learnTips.title) {
+                $('#section_resources h1.tip').text(data.learnTips.title);
+            }
+
+            if (data.learnTips.content) {
+                $tipDiv.append($('<p style="margin-right:24px">').text(data.learnTips.content));
+
+                if (typeof data.learnTips.caption !== 'undefined') {
+                    $tipDiv.append($('<a href="fakeurl" tabindex="-1">').text(data.learnTips.caption).on("click", function (e) {
+
+                        if (typeof data.learnTips.helpTopicId !== 'undefined' && data.learnTips.helpTopicId !== "")
+                            ntp.acad.openUrlWithHelpBrowser(data.learnTips.helpTopicId);
+                        else if (typeof data.learnTips.url !== 'undefined' && data.learnTips.url !== "")
+                            ntp.acad.openUrlWithBrowser(data.learnTips.url);
+
+                        e.preventDefault();
+                    }));
+                }
+                $tipResources.append($tipDiv);
+
+                $tipResources.data({
+                    upload_time: data.learnTips.upload_time
+                });
+
+                //Append the hilight span if the tip is never visited
+                if (typeof data.learnTips.content !== 'undefined' && typeof data.learnTips.upload_time !== 'undefined') {
+
+                    var uploadTimeFromServer = new Date(data.learnTips.upload_time);
+                    if (uploadTimeFromServer > ntp.video.releasetime) {
+                        $tipContainer.append(hilightedContents['tip'] = hilight.createElement('tip', data.learnTips.upload_time));
+                    }
+                }
+            }
+        }
+        else {
+            var $tipSection = $('#Section_tip');
+            if (typeof $tipSection != 'undefined' && $tipSection != null)
+                $('#Section_tip').remove();
+        }
+    };
+
+    var updateOnlineResource = function(data) {
+        if (data.onlineResources) {
+            hasResource = true;
+            var $onlineResources = $('#online_resources_box');
+            if (data.onlineResources.title) {
+                $('#section_resources h1.resources').text(data.onlineResources.title);
+            }
+            if (data.onlineResources.description) {
+                $onlineResources.append($('<p>').text(data.onlineResources.description));
+            }
+            if (data.onlineResources.links instanceof Array) {
+                var $list = $('<ol>').addClass('flex');
+                $onlineResources.append($list);
+
+                $.each(data.onlineResources.links, function (i, link) {
+
+                    var $listItem = $('<li>').addClass('button').append($('<img>').attr({
+                        src: link.banner,
+                        alt: link.caption
+                    })).append($('<p>').text(link.caption));
+
+                    //Append the hilight span if its a new link
+                    if ((typeof link.url !== 'undefined' || typeof link.helpTopicId !== 'undefined') && typeof link.upload_time !== 'undefined') {
+                        
+                        var uploadTimeFromServer = new Date(link.upload_time);
+                        if (uploadTimeFromServer > ntp.video.releasetime) {
+                            {
+                                if (typeof link.url !== 'undefined')
+                                    $listItem.append(hilightedContents[link.url] = hilight.createElement(link.url, link.upload_time));
+                                else
+                                    $listItem.append(hilightedContents[link.helpTopicId] = hilight.createElement(link.helpTopicId, link.upload_time));
+                            }
+                        }
+                    }
+
+                    $list.append($listItem);
+
+                    if (link.url) {
+                        if (link.external === true) {
+                            $listItem.click(function() {
+                                ntp.utils.openExternalUrlWithBrowser(link.url);
+                                var $lightBoxPanel = $('#lightbox_panel');
+                                $lightBoxPanel.addClass('leave_autodesk');
+
+                                if (urlIsHilightedContent(link.url) === true) {
+                                    ntp.acad.updateLearnContentState(link.url, link.upload_time);
+                                }
+                            });
+                        } else {
+                            $listItem.click(function() {
+                                ntp.acad.openUrlWithBrowser(link.url);
+
+                                if (urlIsHilightedContent(link.url) === true) {
+                                    ntp.acad.updateLearnContentState(link.url, link.upload_time);
+                                }
+                            });
+                        }
+                    } else if (typeof link.helpTopicId === 'string' && link.helpTopicId !== "") {
+                        $listItem.click(function (e) {
+                            ntp.acad.openUrlWithHelpBrowser(link.helpTopicId);
+                            e.preventDefault();
+                            if (urlIsHilightedContent(link.helpTopicId) === true) {
+                                ntp.acad.updateLearnContentState(link.helpTopicId, link.upload_time);
+                            }
+                        });
+                    }
+                });
+            }
+
+            ntp.page.layout.updateOnlineResourceHeight();
+        } else {
+            var $sectionResources = $('#section_resourceslinks');
+            $sectionResources.remove();
+        }
+    };
+    
+    return {
+        // ntp.content.learnTab
+        urlIsHilightedContent: urlIsHilightedContent,
+
+        hilightNewLearnConents: function (registryRecords) {
+            for (var url in hilightedContents) {
+                if (hilightedContents.hasOwnProperty(url) && typeof hilightedContents[url] !== 'undefined') {
+                    if (typeof registryRecords[url] === 'undefined' ||
+                        hilightedContents[url].data('upload_time') > new Date(registryRecords[url])) {
+                            hilightedContents[url].removeClass('hidden');
+                            notificationNum++;
+                        }
+                }
+            }
+
+            //Update badge showing number.
+            $footerBadge.html(notificationNum.toString());
+            if (notificationNum > 0) {
+                $footerBadge.removeClass('hidden');
+            }
+        },
+
+        hasFeaturedVideos: function() {
+            return hasFeaturedVideo;
+        },
+        
+        hasGetStartedVideos: function() {
+            return hasGetStartedVideo;
+        },
+        
+        hasOnlineResource: function() {
+            return hasResource;
+        },
+        
+        hasTips: function() {
+            return hasTip;
+        },
+
+        unhilightViewedLearnConents: function (registryRecords) {
+
+            if (typeof registryRecords['RecentViewed'] !== 'undefined' &&
+                urlIsHilightedContent(registryRecords['RecentViewed']) === true) {
+
+                if (registryRecords['RecentViewed'] === 'tip' && ntp.page.tabs.isTipContentsVisited() === false) {
+                    hilightedContents[registryRecords['RecentViewed']].addClass('hidden');
+                    notificationNum--;
+                } else if (registryRecords['RecentViewed'] !== 'tip') {
+                    hilightedContents[registryRecords['RecentViewed']].addClass('hidden');
+                    notificationNum--;
+                }
+            }
+
+            if (typeof registryRecords['tip'] !== 'undefined' && urlIsHilightedContent('tip') === true) {
+                hilightedContents['tip'].addClass('hidden');
+                notificationNum--;
+            }
+            //Update badge showing number.
+            if ($footerBadge !== null) {
+                $footerBadge.html(notificationNum.toString());
+                if (notificationNum === 0) {
+                    $footerBadge.addClass('hidden');
+                }
+            }
+        },
+
+        unhilightRecentViewed: function (RegisteredInfo) {
+            this.unhilightViewedLearnConents($.parseJSON(RegisteredInfo));
+        },
+
+        hilightRecentUpdates: function (RegisteredInfo) {
+            this.hilightNewLearnConents($.parseJSON(RegisteredInfo));
+        },
+
+        load: function(data) {
+
+            $footerBadge = $('#footer_learn_badge');
+
+            //load A360 widget based on url.
+            if (typeof data.url_connect_widget === 'string' && data.url_connect_widget !== "") {
+                //Set url and try to load A360 widget
+                ntp.widget.connect.setWidgetURL(data.url_connect_widget);
+            }
+            ntp.widget.connect.beginRefresh();
+
+            if (typeof data.release_time === 'string') {
+                ntp.video.releasetime = new Date(data.release_time);
+            }
+            if ( typeof data.videoWidth === 'number') {
+                ntp.video.videoWidth = data.videoWidth;
+            }
+            if ( typeof data.videoHeight === 'number') {
+                ntp.video.videoHeight = data.videoHeight;
+            }
+
+            if ( typeof data.videoListLarge === 'object' && data.videoListLarge.video instanceof Array) {
+                if ( typeof data.videoListLarge.title === 'string') {
+                    $('#section_whats_new h1').text(data.videoListLarge.title);
+                }
+                loadVideoList($('#section_whats_new ol'), data.videoListLarge.video);
+            } else {
+                var $sectionWhatsNew = $('#section_whats_new');
+                $sectionWhatsNew.next().remove();
+                $sectionWhatsNew.remove();
+            }
+
+            //update Section videos
+            updateSectionVideos(data);
+
+            //update learn tips section
+            updateLearnTipsSection(data);
+
+            //update online resource
+            updateOnlineResource(data);
+
+            //Hilight the Recently added learn contents.
+            var RecentlyUpdatedUrls = [];
+            for (var url in hilightedContents) {
+                if (hilightedContents.hasOwnProperty(url))
+                    RecentlyUpdatedUrls.push(url);
+            }
+            if (RecentlyUpdatedUrls.length > 0)
+                ntp.acad.getLearnContentStateListAsJSON(RecentlyUpdatedUrls).done(ntp.utils.makeCallback(this, 'hilightRecentUpdates'));
+
+        }
+    };
+})();
+
+/**
+ * Triggers update of content on events
+ */
+(function() {
+    ntp.deferred.customization.done(function() {
+        ntp.deferred.strings.done(function(data) {
+            ntp.content.applyLocalizedStrings(data);
+            ntp.deferred.localization.resolve();
+        });
+    });
+
+    $.when(ntp.deferred.localization, ntp.deferred.customization).done(function() {
+        
+        $.when.apply(null, ntp.asyncLoadings).always(function() {
+            ntp.widget.notifications.adjustContainerHeight();
+            $('#preload_mask').remove();
+        });
+
+        // Load the content of learn tab
+        ntp.deferred.learnTab.done(function(data) {
+
+            ntp.widget.connect.setIsOnline(true);
+            ntp.content.learnTab.load(data);
+
+            // Move hidden learn tab content to target place.
+            var $preloadLearn = $('#preload_learn');
+            $('#tab_learn .placeholder').remove();
+            $('#tab_learn .content').empty().append($preloadLearn.children());
+            $preloadLearn.remove();
+
+            ntp.page.tabs.addVisibleTab("tab_learn", false);
+            ntp.page.layout.update(); 
+        }).fail(function() {
+            // Show offine help download notification box when load learn page failure.
+            ntp.widget.notifications.beginGetOfflineHelpStatus();
+            ntp.widget.connect.setIsOnline(false);
+            ntp.widget.connect.beginRefresh();
+        });
+    });
+})();

@@ -1,0 +1,310 @@
+{"status":"Completed","totalResult":"324","bin":[{"type":"source","label":
+      "Source","value":"discussion","ndocs":"132"},{"type":"source","label":
+      "Source","value":"sfdcarticles","ndocs":"117"},{"type":"source",
+      "label":"Source","value":"CloudHelp","ndocs":"63"},{"type":"source",
+      "label":"Source","value":"youtube","ndocs":"6"},{"type":"source",
+      "label":"Source","value":"downloads","ndocs":"4"},{"type":"source",
+      "label":"Source","value":"blog","ndocs":"1"},{"type":"source","label":
+      "Source","value":"screencast","ndocs":"1"},{"type":
+      "ADSKContentGroup","label":"Information Category","value":
+      "Troubleshooting","ndocs":"237"},{"type":"ADSKContentGroup","label":
+      "Information Category","value":"Learn \u0026 Explore","ndocs":"81"},{
+      "type":"ADSKContentGroup","label":"Information Category","value":
+      "Installation \u0026 Deployment","ndocs":"58"},{"type":
+      "ADSKContentGroup","label":"Information Category","value":
+      "Getting Started","ndocs":"13"},{"type":"ADSKContentGroup","label":
+      "Information Category","value":"Downloads","ndocs":"4"},{"type":
+      "ADSKContentGroup","label":"Information Category","value":
+      "Developer\u0027s Documentation","ndocs":"3"},{"type":
+      "ADSKContentGroup","label":"Information Category","value":
+      "Scripting \u0026 Customization","ndocs":"2"},{"type":"ADSKCategory",
+      "label":"Category","value":"Autodesk University","ndocs":"1"},{"type":
+      "MediaType","label":"Media","value":"Text Only","ndocs":"316"},{"type":
+      "MediaType","label":"Media","value":"Video","ndocs":"8"},{"type":
+      "ADSKUserType","label":"User Type","value":"User","ndocs":"324"},{
+      "type":"ADSKUserType","label":"User Type","value":
+      "Administrator/CAD Manager","ndocs":"6"},{"type":"ADSKUserType",
+      "label":"User Type","value":"Developer","ndocs":"1"},{"type":
+      "ADSKKnowledgeSource","label":"Knowledge Source","value":
+      "Accepted Solutions In Forums","ndocs":"132"},{"type":
+      "ADSKKnowledgeSource","label":"Knowledge Source","value":
+      "Technical Support","ndocs":"117"},{"type":"ADSKKnowledgeSource",
+      "label":"Knowledge Source","value":"Product Documentation","ndocs":
+      "63"},{"type":"ADSKKnowledgeSource","label":"Knowledge Source","value":
+      "YouTube","ndocs":"6"},{"type":"ADSKKnowledgeSource","label":
+      "Knowledge Source","value":"Blogs","ndocs":"1"},{"type":
+      "ADSKKnowledgeSource","label":"Knowledge Source","value":
+      "Screencast","ndocs":"1"},{"type":"ADSKContentType","label":
+      "Content Type","value":"Reference","ndocs":"35"},{"type":
+      "ADSKContentType","label":"Content Type","value":"Concept","ndocs":
+      "21"},{"type":"ADSKContentType","label":"Content Type","value":
+      "Command","ndocs":"9"},{"type":"ADSKContentType","label":
+      "Content Type","value":"System Variable","ndocs":"8"},{"type":
+      "ADSKContentType","label":"Content Type","value":"Task","ndocs":"6"},{
+      "type":"ADSKActivity","label":"Activity","value":"Installing","ndocs":
+      "5"},{"type":"ADSKActivity","label":"Activity","value":"Customizing",
+      "ndocs":"1"},{"type":"ADSKContentProvider","label":
+      "Content Provider","value":"Autodesk","ndocs":"190"},{"type":
+      "ADSKContentProvider","label":"Content Provider","value":
+      "Individual User","ndocs":"134"},{"type":"experiencelevel","label":
+      "Skill Level","value":"Intermediate","ndocs":"49"},{"type":
+      "experiencelevel","label":"Skill Level","value":"Beginner","ndocs":
+      "13"},{"type":"ADSKDownloadType","label":"Download Type","value":
+      "Hotfixes","ndocs":"3"},{"type":"ADSKDownloadType","label":
+      "Download Type","value":"Object Enablers","ndocs":"1"},{"type":
+      "ADSKDevelopmentTool","label":"Development Tools","value":
+      "Express Tool","ndocs":"1"},{"type":"ADSKProductFeature","label":
+      "Product Feature","value":"Drawing Tools","ndocs":"2"},{"type":
+      "ADSKProductFeature","label":"Product Feature","value":"Annotation",
+      "ndocs":"1"},{"type":"ADSKProductFeature","label":"Product Feature",
+      "value":"External References","ndocs":"1"}],"entries":{"item":[{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-9C7E997D-28F8-4605-8583-09606610F26D.htm",
+        "title":"About Security and Protecting Against Viruses","snippet":
+        "Overview Malicious executable code, also known as \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t or \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tviruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t, has become more common and can impact users of AutoCAD.",
+        "source":"CloudHelp","shortDescription":
+        "Several security measures and practices can protect you against malicious executable files.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-9C7E997D-28F8-4605-8583-09606610F26D","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-9C7E997D-28F8-4605-8583-09606610F26D-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-C108E81C-7A06-477C-A5F8-10AA2FDEB050.htm",
+        "title":"Security Options Dialog Box","snippet":
+        "Controls the \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t restrictions for running executable files in AutoCAD.",
+        "source":"CloudHelp","shortDescription":
+        "Controls the security restrictions for running executable files in AutoCAD.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-C108E81C-7A06-477C-A5F8-10AA2FDEB050","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-C108E81C-7A06-477C-A5F8-10AA2FDEB050-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/AutoCAD-Cyber-Security-List-of-Links",
+        "title":"AutoCAD Cyber Security: List of Links","snippet":
+        "AutoCAD Cyber \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t Resources Primary Help Topics on Cyber \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t in AutoCAD About \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t and Protecting Against \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tViruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t This is an overview of the \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t and \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tvirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t threats specifically targeting AutoCAD, the vulnerabilities, countermeasures, and recommendations for protecting your intellectual property.  ",
+        "source":"sfdcarticles","shortDescription":
+        "AutoCAD Cyber Security Resources","publishDate":
+        "2018-12-04T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/AutoCAD-Cyber-Security-List-of-Links.html",
+        "topicId":"kA23A000000mhXk","caasKey":
+        "caas/sfdcarticles/sfdcarticles/AutoCAD-Cyber-Security-List-of-Links.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/Cyber-Security-Enhancements-Added-in-Previous-AutoCAD-Releases",
+        "title":
+        "Cyber Security Enhancements Added in Previous AutoCAD Releases",
+        "snippet":
+        "\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t settings and improvements have been introduced in AutoCAD over several releases to help you avoid \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tviruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t and \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t.",
+        "source":"sfdcarticles","shortDescription":
+        "Security settings and improvements have been introduced in AutoCAD over several releases to help you avoid viruses and malware. The following is a list of the improvements made with each release.",
+        "publishDate":"2018-12-04T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/Cyber-Security-Enhancements-Added-in-Previous-AutoCAD-Releases.html",
+        "topicId":"kA23A000000mhXV","caasKey":
+        "caas/sfdcarticles/sfdcarticles/Cyber-Security-Enhancements-Added-in-Previous-AutoCAD-Releases.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/How-to-detect-and-remove-the-Acad-vlx-virus-s",
+        "title":"How to detect and remove the Acad.vlx virus","snippet":
+        "How to Avoid \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tViruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t in AutoCAD 2013 Service Pack 1 for AutoCAD 2013 includes new \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t options that help prevent \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t and \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tviruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t.",
+        "source":"sfdcarticles","shortDescription":
+        "Users have reported a malicious acad.vlx file to Autodesk. This is not an actual AutoCAD file. The cleanup process outlined below detects and deletes any acad.vlx file before AutoCAD attempts to load it, preventing the spread of the virus.",
+        "publishDate":"2013-09-24T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/How-to-detect-and-remove-the-Acad-vlx-virus-s.html",
+        "topicId":"kA230000000tc2u","caasKey":
+        "caas/sfdcarticles/sfdcarticles/How-to-detect-and-remove-the-Acad-vlx-virus-s.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-2199A941-E183-4CAC-914C-E4538468DE64.htm",
+        "title":"SECURITYOPTIONS (Command)","snippet":
+        "The \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t Options dialog box is displayed.",
+        "source":"CloudHelp","shortDescription":
+        "Controls the security restrictions for running executable files in AutoCAD.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-2199A941-E183-4CAC-914C-E4538468DE64","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-2199A941-E183-4CAC-914C-E4538468DE64-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-61B67D77-C8C4-4259-8963-E8BE03C79A70.htm",
+        "title":"AutoCAD Macro Virus Protection Dialog Box","snippet":
+        "Disables macro \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tvirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t protection. If you open a drawing or project file that contains macros, a macro \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tvirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t can become active and be transmitted to your computer.",
+        "source":"CloudHelp","shortDescription":
+        "Disables macro virus protection.","publishDate":
+        "2015-12-16T12:00:00+0000","topicId":
+        "GUID-61B67D77-C8C4-4259-8963-E8BE03C79A70","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-61B67D77-C8C4-4259-8963-E8BE03C79A70-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-2FB4611D-F141-48D5-9B6E-460EB59351AF.htm",
+        "title":"TRUSTEDPATHS (System Variable)","snippet":
+        "These trusted paths can also be specified in the Options dialog box Files tab, the \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t Options dialog box, or in the Deployment Wizard.",
+        "source":"CloudHelp","shortDescription":
+        "Specifies which folders have permission to load and execute files that contain code.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-2FB4611D-F141-48D5-9B6E-460EB59351AF","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-2FB4611D-F141-48D5-9B6E-460EB59351AF-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-541566C6-2738-49DD-87C3-C1490E924A02.htm",
+        "title":"SECURELOAD (System Variable)","snippet":
+        "Controls whether AutoCAD loads executable files based on whether they are in a trusted folder",
+        "source":"CloudHelp","shortDescription":
+        "Controls whether AutoCAD loads executable files based on whether they are in a trusted folder.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-541566C6-2738-49DD-87C3-C1490E924A02","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-541566C6-2738-49DD-87C3-C1490E924A02-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-BA2AE331-A1EB-4617-B321-697D77746545.htm",
+        "title":"TRUSTEDDOMAINS (System Variable)","snippet":
+        "Specifies the domain names or URLs from which AutoCAD can run JavaScript code",
+        "source":"CloudHelp","shortDescription":
+        "Specifies the domain names or URLs from which AutoCAD can run JavaScript code.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-BA2AE331-A1EB-4617-B321-697D77746545","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-BA2AE331-A1EB-4617-B321-697D77746545-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-E0049DB8-DC45-47A1-A8B7-67012F7AEDB8.htm",
+        "title":"ACADLSPASDOC (System Variable)","snippet":
+        "Controls whether the acad.lsp file is loaded into every drawing or just the first drawing opened in a session",
+        "source":"CloudHelp","shortDescription":
+        "Controls whether the acad.lsp file is loaded into every drawing or just the first drawing opened in a session.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-E0049DB8-DC45-47A1-A8B7-67012F7AEDB8","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-E0049DB8-DC45-47A1-A8B7-67012F7AEDB8-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-86C1545F-3549-4DC0-A9F7-7019A8861AF3.htm",
+        "title":"To Recover From an Attack by Malicious Code","snippet":
+        "All leading anti-\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tvirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t solutions identify and repair AutoCAD \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tvirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t infections.",
+        "source":"CloudHelp","publishDate":"2015-12-16T12:00:00+0000",
+        "topicId":"GUID-86C1545F-3549-4DC0-A9F7-7019A8861AF3","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-86C1545F-3549-4DC0-A9F7-7019A8861AF3-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-27EF4004-9316-40CC-9F97-EABE1006E73C.htm",
+        "title":"About Cracked Copies of Software Products","snippet":
+        "In addition to the obvious legal risks and embarrassment, there are very real dangers to intellectual property and online \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t.",
+        "source":"CloudHelp","shortDescription":
+        "A common but illegal practice is to download counterfeit software products, also known as \"cracked\" software. The digital signatures for the executable files are invalidated, and users of the cracked software unknowingly put themselves at a significant risk.",
+        "publishDate":"2015-12-16T12:00:00+0000","topicId":
+        "GUID-27EF4004-9316-40CC-9F97-EABE1006E73C","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-27EF4004-9316-40CC-9F97-EABE1006E73C-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/How-to-protect-AutoCAD-from-Viruses",
+        "title":"How to protect AutoCAD from Viruses","snippet":
+        "\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t settings and improvements have been introduced in AutoCAD over several releases to help you avoid \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tviruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t and \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t.",
+        "source":"sfdcarticles","shortDescription":
+        "You want to know how to improve security for your AutoCAD-based product.",
+        "publishDate":"2015-06-17T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/How-to-protect-AutoCAD-from-Viruses.html",
+        "topicId":"kA230000000eaaB","caasKey":
+        "caas/sfdcarticles/sfdcarticles/How-to-protect-AutoCAD-from-Viruses.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://knowledge.autodesk.com/content/autodesk%C2%AE-autocad%C2%AE-2016-internet-security-hotfix",
+        "title":"Autodesk® AutoCAD® 2016 Internet Security Hotfix","snippet":
+        
+        "Downloads Autodesk_AutoCAD_2016_Internet_\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t_Hotfix_32bit.zip (zip - 452 Byte) Autodesk_AutoCAD_2016_Internet_\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t_Hotfix_64bit.zip (zip - 452 Byte) Subscription customers should install the AutoCAD 2016.0.11 Update instead of the Internet \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t Hotfix.",
+        "source":"downloads","publishDate":"2018-10-31T12:00:00+0000",
+        "caasUrl":
+        "/caas/downloads/content/autodesk-C2-AE-autocad-C2-AE-2016-internet-security-hotfix.html",
+        "topicId":"192496","caasKey":
+        "caas/downloads/content/autodesk-C2-AE-autocad-C2-AE-2016-internet-security-hotfix.html",
+        "sourceLabel":"Download"},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/Software-hangs-at-checking-license",
+        "title":"AutoCAD or AutoCAD LT hangs during startup","snippet":
+        "For a list of potential conflicting adware, \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t, and \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t software - Error: \"The application was unable to start correctly.\"",
+        "source":"sfdcarticles","shortDescription":
+        "When you start AutoCAD or AutoCAD LT it hangs at either \"Checking License\" or \"Loading\".",
+        "publishDate":"2014-09-24T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/Software-hangs-at-checking-license.html",
+        "topicId":"kA230000000eHd5","caasKey":
+        "caas/sfdcarticles/sfdcarticles/Software-hangs-at-checking-license.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/The-application-was-unable-to-start-correctly-0xc0000142",
+        "title":
+        "Error: \"The application was unable to start correctly.\"",
+        "snippet":
+        "Option 2—Remove blockage from adware or \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t Find and uninstall any of the following: Search Protect (adware) SW-Booster (adware) SmartBar (\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t) iLivid Toolbar (\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t) PerformanceOptimizer (\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t) Option 3.",
+        "source":"sfdcarticles","shortDescription":
+        "Starting the program results in the following error: \"The application was unable to start correctly (0xc0000142). Click OK to close the application.\"",
+        "publishDate":"2014-03-31T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/The-application-was-unable-to-start-correctly-0xc0000142.html",
+        "topicId":"kA230000000trqM","caasKey":
+        "caas/sfdcarticles/sfdcarticles/The-application-was-unable-to-start-correctly-0xc0000142.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://knowledge.autodesk.com/content/autodesk%C2%AE-autocad%C2%AE-raster-design-2016-atil-security-hotfix",
+        "title":
+        "Autodesk® AutoCAD® Raster Design 2016 ATIL Security Hotfix",
+        "snippet":
+        "Raster_Design_2016_ATIL_\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t_Hotfix_32bit.zip (zip - 1.82Mb) Raster_Design_2016_ATIL_\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t_Hotfix_64bit.zip (zip - 2.95Mb) AutoCAD_Raster_Design_2016_ATIL_\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t_Hotfix_Readme.pdf(pdf - 167Kb)",
+        "source":"downloads","publishDate":"2015-10-26T12:00:00+0000",
+        "caasUrl":
+        "/caas/downloads/content/autodesk-C2-AE-autocad-C2-AE-raster-design-2016-atil-security-hotfix.html",
+        "topicId":"11536","caasKey":
+        "caas/downloads/content/autodesk-C2-AE-autocad-C2-AE-raster-design-2016-atil-security-hotfix.html",
+        "sourceLabel":"Download"},{"url":
+        "http://help.autodesk.com/cloudhelp/2016/ENU/Autodesk-Installation/files/GUID-FC221538-9FA2-4129-A310-1904A5BEF0AD.htm",
+        "title":"About Installation Prerequisites","snippet":
+        "Before installing, make sure that you’ve prepared your system and gathered all the information you need",
+        "source":"CloudHelp","shortDescription":
+        "Before installing, make sure that you’ve prepared your system and gathered all the information you need.",
+        "publishDate":"2015-09-15T12:00:00+0000","topicId":
+        "GUID-FC221538-9FA2-4129-A310-1904A5BEF0AD","caasKey":
+        "caas/CloudHelp/cloudhelp/2016/ENU/Autodesk-Installation/files/GUID-FC221538-9FA2-4129-A310-1904A5BEF0AD-htm.html",
+        "knowledgeSource":["Product Documentation"]},{"url":
+        "http://forums.autodesk.com/t5/AutoCAD-Architecture-Forum/Internet-Security-Hotfix-Questions-Comments/td-p/8282692",
+        "title":"Internet Security Hotfix Questions/Comments","snippet":
+        "The \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t hotfix enables TLS 1.0/1.1/1.2.  When the server updates happen October, they will only support TLS 1.2 for improved \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t. ",
+        "source":"discussion","shortDescription":
+        "@john.vellek:\n\n\nRegarding:  Autodesk AutoCAD 2016-2019 Internet Security Hotfix\n\n\n \n\nI realize that releases 2015 and previous are no longer officially supported.  Does that mean these versions will lose access to those web services?  We still have some clinging to AutoCAD Architecture 2014.  I suppose this would be a good excuse to force them to move along.  Would adding\n  \u003cruntime\u003e\n    \u003cAppContextSwitchOverrides value\u003d\"Switch.System.ServiceModel.DisableUsingServicePointManagerSecurityProtocols\u003dfalse;Switch.System.Net.DontEnableSchUseStrongCrypto\u003dfalse\" /\u003e\n  \u003c/runtime\u003e\nto the 2014 version of acad.exe.config allow someone using 2014 to use the cloud rendering service?  Or would 2014 not know what to do with that?\nIf previous changes were made to the acad.exe.config file, I assume that we will have to manually copy those changes over to the new files.  Specifically, we have had issues when running AutoCAD Architecture/MEP 2014 and, in a few cases, AutoCAD Architecture/MEP 2016 in Windows 10, due to crashing on launch.  We found that the solution given in AutoCAD 2012, 2013, and 2014 crash when launched, opening/closing files, and clicking the ribbon resolved the issue (including, in a few cases, for 2016 as well).  I can add the noted line of code to the 2016 security patch version of acad.exe.config; I would like to confirm that will not be an issue before having it pushed out to the entire office.\nComment:  Of the four version-specific download pages linked to from the Autodesk AutoCAD 2016-2019 Internet Security Hotfix post, only the 2016 page has a link to the PDF readme.  I realize the PDF is attached to the post here, but others may get to the hotfix download pages by other means, such as a search in the AKN or a browser search engine, and may not need the 2016 version.  Having the readme on the other three pages would be a good thing.\n\n\n\n \n\n\n ",
+        "publishDate":"2018-09-20T12:00:00+0000","caasUrl":
+        "/caas/discussion/t5/AutoCAD-Architecture-Forum/Internet-Security-Hotfix-Questions-Comments/td-p/8282692.html",
+        "caasKey":
+        "caas/discussion/t5/AutoCAD-Architecture-Forum/Internet-Security-Hotfix-Questions-Comments/td-p/8282692.html",
+        "sourceLabel":"Forum","knowledgeSource":[
+          "Accepted Solutions In Forums"]},{"url":
+        "http://forums.autodesk.com/t5/Installation-Licensing/Unable-to-install-ANY-Revit-product/td-p/7048632",
+        "title":"Unable to install ANY Revit product","snippet":
+        "Have you scanned for \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tmalware\n\t\t\t\t\u003c/span\u003e\n\t\t\t and \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tvirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t?   In the end this is not an Autodesk related issue.",
+        "source":"discussion","shortDescription":
+        "Hi\n\n \n\nI\u0027m having major problems installing any Revit product onto my laptop.  I\u0027ve spent hours trying to sort this out and its really frustrating!\n\n \n\nBit of background - I\u0027m using a DellXPS15 laptop with Windows 10.  The laptop is only about 6 months old.\n\n \n\nWhen I first got the laptop, I installed Revit and AutoCAD 2016 without any problems.  A few weeks ago I installed Revit 2017, which needed a couple of attempts for it to install properly, but it was working fine.  Yesterday I tried to install Revit 2018 but I started getting the various error messages described below, and after HOURS of trying, I thought it was an issue with my laptop so I decided to do a full reset.\n\n \n\nOnce it loaded back up, I installed my Kaspersky anti-virus and then tried to install any version of Revit, however I\u0027m still getting same error messages but now for all versions.  So I\u0027m unable to install Revit 2016, 2017 or 2018 without getting the following errors for each installation method:\n\n \n\nInstall Now:  \"Installer encountered error and could not start the NetSession Client\".\n\n \n\nDownload Now: \"The installer has encountered an unexpected error installing this package. This may indicate a problem a problem with this package. The error code is 2894\" and then \" Product failed to install. Please contact your Autodesk support account manager\".\n\n \n\nBrowser Download AND download through Virtual Agent: Once all of the files download and I run the Part 1 installation, I get an error saying \"FAILED TO LOAD RICHED32.DLL (193!)\" and then the first installation window appears, but when I click install it just disappears!\n\n \n\nSo I\u0027ve tried basically all of the download options and nothing works - Before I did the laptop reset I thought it was an error with the Riched32 and Riched20 DLL files, so I replaced those but it made no difference.  I\u0027ve also made sure my anti virus was disabled during all installation attempts.\n\n \n\nIf anyone can help it would be really appreciated as I\u0027m unable to work on any projects at the moment!\n\n \n\nThanks\n\nKevin",
+        "publishDate":"2017-04-28T12:00:00+0000","caasUrl":
+        "/caas/discussion/t5/Installation-Licensing/Unable-to-install-ANY-Revit-product/td-p/7048632.html",
+        "caasKey":
+        "caas/discussion/t5/Installation-Licensing/Unable-to-install-ANY-Revit-product/td-p/7048632.html",
+        "sourceLabel":"Forum","knowledgeSource":[
+          "Accepted Solutions In Forums"]},{"url":
+        "http://forums.autodesk.com/t5/AutoCAD-Forum/problems-installing-AutoCAD-2016-DELL-Precision-T5810/td-p/5703979",
+        "title":"problems installing AutoCAD 2016 DELL Precision T5810",
+        "snippet":
+        "i need help I cant install AutoCAD 2016 in New Dell Precision T5810, installation simply takes too long , someone knows if \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t is an issue the team?",
+        "source":"discussion","shortDescription":
+        "Hello!\n\n \n\n \n\ni need help I cant install AutoCAD 2016 in New Dell Precision T5810, installation simply takes too long , someone knows if security is an issue the team? or some tip? \n\n \n\nThank you.",
+        "publishDate":"2015-07-02T12:00:00+0000","caasUrl":
+        "/caas/discussion/t5/AutoCAD-Forum/problems-installing-AutoCAD-2016-DELL-Precision-T5810/td-p/5703979.html",
+        "caasKey":
+        "caas/discussion/t5/AutoCAD-Forum/problems-installing-AutoCAD-2016-DELL-Precision-T5810/td-p/5703979.html",
+        "sourceLabel":"Forum","knowledgeSource":[
+          "Accepted Solutions In Forums"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/Program-crashes-using-random-commands",
+        "title":"AutoCAD randomly crashes or freezes","snippet":
+        "Check for \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tviruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t (see AutoCAD, \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tViruses\n\t\t\t\t\u003c/span\u003e\n\t\t\t, and \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tSecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t).",
+        "source":"sfdcarticles","shortDescription":
+        "AutoCAD random crash or freeze while using the software.",
+        "publishDate":"2013-03-20T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/Program-crashes-using-random-commands.html",
+        "topicId":"kA230000000tPWz","caasKey":
+        "caas/sfdcarticles/sfdcarticles/Program-crashes-using-random-commands.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/The-Security-System-Softlock-License-Manager-is-Not-Functioning-or-is-Improperly-Installed",
+        "title":
+        "The Security System(Softlock License Manager) is Not Functioning or is Improperly Installed",
+        "snippet":
+        "Network (Multi-user) licensed AutoCAD 2016 at launch time gives error: Error - The \n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tsecurity\n\t\t\t\t\u003c/span\u003e\n\t\t\t system (softlock license manager) is not functioning or is improperly installed   ACCORECONSOLE environment variable is known to cause this error and needs to be renamed or removed.",
+        "source":"sfdcarticles","shortDescription":
+        "With Network (Multi-user) licensed AutoCAD 2016 at launch time gives error \"The Security System(Softlock License Manager) is Not Functioning or is Improperly Installed\"",
+        "publishDate":"2018-02-26T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/The-Security-System-Softlock-License-Manager-is-Not-Functioning-or-is-Improperly-Installed.html",
+        "topicId":"kA23A000000pcZ8","caasKey":
+        "caas/sfdcarticles/sfdcarticles/The-Security-System-Softlock-License-Manager-is-Not-Functioning-or-is-Improperly-Installed.html",
+        "knowledgeSource":["Technical Support"]},{"url":
+        "http://help.autodesk.com.s3.amazonaws.com/sfdcarticles/Error-You-do-not-have-permission-to-save-to-this-location-in-AutoCAD",
+        "title":
+        "Error: \"You do not have permission to save to this location\" when saving in AutoCAD",
+        "snippet":
+        "Click \"\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tVirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t \u0026 threat protection\" and then \"\n\t\t\t\t\u003cspan class\u003d\"vivbold qt0\"\u003e\n\t\t\tVirus\n\t\t\t\t\u003c/span\u003e\n\t\t\t \u0026 threat protection settings.\"",
+        "source":"sfdcarticles","shortDescription":
+        "AutoCAD: Saving a file shows a \"permission\" error.","publishDate":
+        "2013-11-18T12:00:00+0000","caasUrl":
+        "/caas/sfdcarticles/sfdcarticles/Error-You-do-not-have-permission-to-save-to-this-location-in-AutoCAD.html",
+        "topicId":"kA230000000tf9h","caasKey":
+        "caas/sfdcarticles/sfdcarticles/Error-You-do-not-have-permission-to-save-to-this-location-in-AutoCAD.html",
+        "knowledgeSource":["Technical Support"]}]}}

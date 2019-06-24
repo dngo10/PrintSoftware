@@ -1,0 +1,16 @@
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\upDateProject.deps.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\upDateProject.runtimeconfig.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\upDateProject.runtimeconfig.dev.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\upDateProject.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\upDateProject.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\netcoreapp2.2\upDateProject.deps.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\netcoreapp2.2\upDateProject.runtimeconfig.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\netcoreapp2.2\upDateProject.runtimeconfig.dev.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\netcoreapp2.2\upDateProject.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Release\netcoreapp2.2\upDateProject.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\upDateProject.csprojAssemblyReference.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\upDateProject.csproj.CoreCompileInputs.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\upDateProject.AssemblyInfoInputs.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\upDateProject.AssemblyInfo.cs
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\upDateProject.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\upDateProject.pdb

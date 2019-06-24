@@ -1,0 +1,14 @@
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\hostpolicy.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\hostfxr.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\upDateProject.exe
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\upDateProject.deps.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\upDateProject.runtimeconfig.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\upDateProject.runtimeconfig.dev.json
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\upDateProject.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\bin\Release\netcoreapp2.2\win10-x64\upDateProject.pdb
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\win10-x64\upDateProject.csprojAssemblyReference.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\win10-x64\upDateProject.csproj.CoreCompileInputs.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\win10-x64\upDateProject.AssemblyInfoInputs.cache
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\win10-x64\upDateProject.AssemblyInfo.cs
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\win10-x64\upDateProject.dll
+C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\upDateProject\obj\Release\netcoreapp2.2\win10-x64\upDateProject.pdb
