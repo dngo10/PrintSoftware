@@ -3643,11 +3643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dngo\\source\\repos\\Print_SeparateBat\\AutocadPrinting\\upDateProject\\upDateProject.csproj",
+      "projectUniqueName": "C:\\Users\\dngo\\Desktop\\PRINSOFTGIT\\PrintSoftware\\AutocadPrinting\\upDateProject\\upDateProject.csproj",
       "projectName": "upDateProject",
-      "projectPath": "C:\\Users\\dngo\\source\\repos\\Print_SeparateBat\\AutocadPrinting\\upDateProject\\upDateProject.csproj",
+      "projectPath": "C:\\Users\\dngo\\Desktop\\PRINSOFTGIT\\PrintSoftware\\AutocadPrinting\\upDateProject\\upDateProject.csproj",
       "packagesPath": "C:\\Users\\dngo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dngo\\source\\repos\\Print_SeparateBat\\AutocadPrinting\\upDateProject\\obj\\",
+      "outputPath": "C:\\Users\\dngo\\Desktop\\PRINSOFTGIT\\PrintSoftware\\AutocadPrinting\\upDateProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
