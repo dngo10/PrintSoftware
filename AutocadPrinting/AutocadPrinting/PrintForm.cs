@@ -34,7 +34,6 @@ namespace AutocadPrinting
             
             InitializeComponent();
             fileTypeComboBox.SelectedIndex = 0;
-            writeError("Init Component done");
 
             string[] styleCTB = File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + "styles.txt");
 
@@ -42,8 +41,6 @@ namespace AutocadPrinting
             styleComboBox.SelectedIndex = 0;
             this.KeyPreview = true;
             List<string> orientationList = new List<string>();
-
-            writeError("Init 1 passed");
 
             orientationList.Add("Landscape");
             orientationList.Add("Portrait");
@@ -57,8 +54,6 @@ namespace AutocadPrinting
             {
                 Directory.Delete(Path.GetTempPath() + folderTemp, recursive: true);
             }
-
-            writeError("Init 2 passed");
 
         }
 
@@ -75,21 +70,16 @@ namespace AutocadPrinting
 
             if (!FindAccoreConsole.findAccoreConsole(out accoreConsolePath, out cadVer))
             {
-                writeError("Load, accoreconosle failed");
 
                 DialogResult temp = MessageBox.Show("accoreconsole.exe NOT FOUND, please specify the path", "accoreconsole not found", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 Application.Exit();
                 return;
             }
 
-            writeError("Load, if passed");
-
             foreach (int year in cadVer)
             {
                 cadVersionsComboBox.Items.Add(year);
             }
-
-            writeError("Load, loop passed");
 
             if (File.Exists(Path.GetTempPath() + currentChosenAutocad))
             {
@@ -107,17 +97,12 @@ namespace AutocadPrinting
                 cadVersionsComboBox.SelectedIndex = 0;
             }
 
-            writeError("Load, get currenCad passed");
-
-
-
             //InstallRequiredFiles.addpc3AndctbFile(cadVersionsComboBox.SelectedItem.ToString());
 
         }
 
         private void AddLayoutsToGridView(List<string> filePaths)
         {
-            writeError("Enter AddLayoutsToGridView.");
             getWindowPostion();
             string basePath = AppDomain.CurrentDomain.BaseDirectory;
             Process process = Process.Start(basePath + "LayoutBuffering.exe");
@@ -154,12 +139,10 @@ namespace AutocadPrinting
             this.ShowIcon = true;
             this.ShowInTaskbar = true;
             WindowState = FormWindowState.Normal;
-            writeError("Exit AddLayoutsToGridView.");
         }
         
         private void AddButton_Click(object sender, EventArgs e)
         {
-            writeError("Enter Add DWG");
 
             OpenFileDialog fileBrowser = new OpenFileDialog();
             fileBrowser.Multiselect = true;
@@ -178,7 +161,6 @@ namespace AutocadPrinting
 
                 List<string> filePaths = new List<string>(fileBrowser.FileNames);
 
-                writeError("Enter Add to Grid View");
                 AddLayoutsToGridView(filePaths);
 
             }
@@ -187,7 +169,6 @@ namespace AutocadPrinting
         // Check version of *.dwg, make sure current autocad can read it.
         private bool canGetLayOut(ref OpenFileDialog fileBrowser)
         {
-            writeError("Enter can Get layout");
             bool check = true;
             int i = 1;
             messageTextBox.Clear();
@@ -211,7 +192,6 @@ namespace AutocadPrinting
 
         private bool canGetLayOut(List<string> paths)
         {
-            writeError("Enter can Get Layout 1.");
             bool check = true;
             int i = 1;
             messageTextBox.Clear();
@@ -235,7 +215,6 @@ namespace AutocadPrinting
 
         private void getLayouts(string dwgPath)
         {
-            writeError("Enter getLayouts");
             string accorePath = accoreconsoleLocationTextBox.Text;
             GetLayoutInfo.getLayouts(dwgPath, accorePath, ref showConsoleCheckBox);
         }
@@ -581,10 +560,8 @@ namespace AutocadPrinting
 
         private void publishButton_Click(object sender, EventArgs e)
         {
-            writeError("Enter publishButton_Click");
             if (checkCondition())
             {
-                writeError("Pass checkCondition");
                 //ErrorReport.getError();
                 List<KeyValuePair<string, List<string>>> printList = createListToPrint();
                 List<string> pathPdfs = getPdfPathList(printList);
@@ -598,7 +575,6 @@ namespace AutocadPrinting
                 this.ShowIcon = false;
                 this.ShowInTaskbar = false;
                 //TESTING
-                writeError("Enter plotting");
                 PrintPdf2.plotting(printList, accoreconsoleLocationTextBox.Text, PlotStylesComboBox.SelectedItem.ToString(), orientationComboBox.SelectedItem.ToString(), ref showConsoleCheckBox, styleComboBox.SelectedItem.ToString());
 
                 process.Kill();
@@ -611,8 +587,6 @@ namespace AutocadPrinting
 
                 Refresh();
 
-                writeError("Enter after plotting");
-
                 if (File.Exists(Path.GetTempPath() + "pdfLayoutListGE.txt"))
                 {
                     try
@@ -623,8 +597,6 @@ namespace AutocadPrinting
 
                     }
                 }
-
-                writeError("Enter after plotting 1");
 
                 if (File.Exists(Path.GetTempPath() + "printFormPosition.txt"))
                 {
@@ -637,7 +609,6 @@ namespace AutocadPrinting
 
                     }
                 }
-                writeError("Enter after plotting 2");
                 checkIfFileExist(pathPdfs);
 
                 //Get time Lasped
@@ -652,7 +623,6 @@ namespace AutocadPrinting
                     }
                     catch { }
                 }
-                writeError("Enter after plotting 3");
 
 
                 if (fileTypeComboBox.SelectedIndex == 0)
@@ -699,9 +669,6 @@ namespace AutocadPrinting
                     Process.Start(tempOutPut);
                     outPutLocationTextBox.Text = tempOutPut;
                 }
-
-                writeError("Enter after plotting 4");
-
 
                 if (Directory.Exists(Path.GetTempPath() + folderTemp))
                 {
