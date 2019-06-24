@@ -17,7 +17,7 @@ namespace AutocadPrinting
 
         public DwgClass()
         {
-
+             //THIS IS BAD 
         }
 
         public void deleteLayout(string layoutName)
