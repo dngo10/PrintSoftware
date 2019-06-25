@@ -69,15 +69,5 @@ namespace AutocadPrinting.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap parsing_engine_e1471551796295 {
-            get {
-                object obj = ResourceManager.GetObject("parsing-engine-e1471551796295", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

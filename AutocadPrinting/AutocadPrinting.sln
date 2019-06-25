@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateForm", "UpdateForm\Up
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "upDateProject", "upDateProject\upDateProject.csproj", "{6C396881-886D-4315-AEA1-4297E8293ACE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{15AFB08A-C32A-4DCC-B338-A1120FC475C5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetVersion", "GetVersion\GetVersion.csproj", "{823F7056-0376-41A9-8B06-E5D2716AFAC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pageSetupFinder", "..\..\pageSetupFinder\pageSetupFinder\pageSetupFinder.csproj", "{03FA5ECE-E06F-4242-B34D-CD3F9F81B506}"
@@ -67,14 +65,6 @@ Global
 		{6C396881-886D-4315-AEA1-4297E8293ACE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C396881-886D-4315-AEA1-4297E8293ACE}.Release|x64.ActiveCfg = Release|Any CPU
 		{6C396881-886D-4315-AEA1-4297E8293ACE}.Release|x64.Build.0 = Release|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Debug|x64.Build.0 = Debug|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Release|x64.ActiveCfg = Release|Any CPU
-		{15AFB08A-C32A-4DCC-B338-A1120FC475C5}.Release|x64.Build.0 = Release|Any CPU
 		{823F7056-0376-41A9-8B06-E5D2716AFAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{823F7056-0376-41A9-8B06-E5D2716AFAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{823F7056-0376-41A9-8B06-E5D2716AFAC0}.Debug|x64.ActiveCfg = Debug|Any CPU

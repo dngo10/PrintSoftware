@@ -20,24 +20,6 @@ Enter AddLayoutsToGridView 2
 Enter AddLayoutsToGridView 3
 Exit AddLayoutsToGridView
 Exit AddButton_Click
-dwgGridView_KeyDown 1
-dwgGridView_KeyDown 2.1
-dwgGridView_KeyDown 3
-PublishButton_Click 1
-PublishButton_Click 2
-PublishButton_Click 3
-dwgGridView_KeyDown 1
-dwgGridView_KeyDown 2.1
-Enter AddButton_Click 1
-Enter canGetLayOut 1
-Enter canGetLayOut 2
-Enter canGetLayOut 3
-Enter AddButton_Click 2
-Enter AddLayoutsToGridView 1
-Enter AddLayoutsToGridView 2
-Enter AddLayoutsToGridView 3
-Exit AddLayoutsToGridView
-Exit AddButton_Click
 PublishButton_Click 1
 PublishButton_Click 2
 PublishButton_Click 3

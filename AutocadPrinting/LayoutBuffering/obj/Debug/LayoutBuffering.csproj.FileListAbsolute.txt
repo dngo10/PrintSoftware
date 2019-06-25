@@ -10,3 +10,12 @@ C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\LayoutBuffering\obj
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Debug\LayoutBuffering.exe.config
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Debug\LayoutBuffering.exe
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Debug\LayoutBuffering.pdb
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Debug\LayoutBuffering.exe.config
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Debug\LayoutBuffering.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Debug\LayoutBuffering.pdb
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\LayoutBuffering\obj\Debug\LayoutBuffering.Form1.resources
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\LayoutBuffering\obj\Debug\LayoutBuffering.Properties.Resources.resources
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\LayoutBuffering\obj\Debug\LayoutBuffering.csproj.GenerateResource.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\LayoutBuffering\obj\Debug\LayoutBuffering.csproj.CoreCompileInputs.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\LayoutBuffering\obj\Debug\LayoutBuffering.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\LayoutBuffering\obj\Debug\LayoutBuffering.pdb

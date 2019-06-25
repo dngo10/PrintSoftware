@@ -11,3 +11,13 @@ C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Debug\CheckingApp.exe
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\AutocadPrinting\bin\Debug\CheckingApp.pdb
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.csprojAssemblyReference.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Debug\CheckingApp.exe.config
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Debug\CheckingApp.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Debug\CheckingApp.pdb
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.csprojAssemblyReference.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.Form1.resources
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.Properties.Resources.resources
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.csproj.GenerateResource.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.csproj.CoreCompileInputs.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\CheckingApp\obj\Debug\CheckingApp.pdb
