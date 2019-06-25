@@ -1,6 +1,43 @@
-Init Component done
-Init 1 passed
-Init 2 passed
-Load, if passed
-Load, loop passed
-Load, get currenCad passed
+Enter Init 2
+Enter Init 3
+Exit Init
+Enter Load 1
+Enter Load 2
+cadVersionsComboBox_SelectedIndexChanged 1
+cadVersionsComboBox_SelectedIndexChanged 2
+cadVersionsComboBox_SelectedIndexChanged 3
+cadVersionsComboBox_SelectedIndexChanged 4
+cadVersionsComboBox_SelectedIndexChanged 5
+cadVersionsComboBox_SelectedIndexChanged 6
+Exit Load
+Enter AddButton_Click 1
+Enter canGetLayOut 1
+Enter canGetLayOut 2
+Enter canGetLayOut 3
+Enter AddButton_Click 2
+Enter AddLayoutsToGridView 1
+Enter AddLayoutsToGridView 2
+Enter AddLayoutsToGridView 3
+Exit AddLayoutsToGridView
+Exit AddButton_Click
+dwgGridView_KeyDown 1
+dwgGridView_KeyDown 2.1
+dwgGridView_KeyDown 3
+PublishButton_Click 1
+PublishButton_Click 2
+PublishButton_Click 3
+dwgGridView_KeyDown 1
+dwgGridView_KeyDown 2.1
+Enter AddButton_Click 1
+Enter canGetLayOut 1
+Enter canGetLayOut 2
+Enter canGetLayOut 3
+Enter AddButton_Click 2
+Enter AddLayoutsToGridView 1
+Enter AddLayoutsToGridView 2
+Enter AddLayoutsToGridView 3
+Exit AddLayoutsToGridView
+Exit AddButton_Click
+PublishButton_Click 1
+PublishButton_Click 2
+PublishButton_Click 3

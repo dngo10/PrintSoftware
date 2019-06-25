@@ -16,3 +16,14 @@ C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\UpdateForm\obj\Rele
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.csproj.CopyComplete
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.exe
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.pdb
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Release\UpdateForm.exe.config
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Release\UpdateForm.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Release\UpdateForm.pdb
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.csprojAssemblyReference.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.Form1.resources
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.Properties.Resources.resources
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.csproj.GenerateResource.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.csproj.CoreCompileInputs.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.csproj.CopyComplete
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\UpdateForm\obj\Release\UpdateForm.pdb

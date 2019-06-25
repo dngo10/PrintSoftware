@@ -15,3 +15,13 @@ C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Rele
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.csproj.CopyComplete
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.exe
 C:\Users\dngo\source\repos\Print_SeparateBat\AutocadPrinting\GetVersion\obj\Release\GetVersion.pdb
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Release\GetVersion.exe.config
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Release\GetVersion.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\AutocadPrinting\bin\Release\GetVersion.pdb
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\GetVersion\obj\Release\GetVersion.csprojAssemblyReference.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\GetVersion\obj\Release\Interop.IWshRuntimeLibrary.dll
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\GetVersion\obj\Release\GetVersion.csproj.ResolveComReference.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\GetVersion\obj\Release\GetVersion.csproj.CoreCompileInputs.cache
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\GetVersion\obj\Release\GetVersion.csproj.CopyComplete
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\GetVersion\obj\Release\GetVersion.exe
+C:\Users\dngo\Desktop\PRINSOFTGIT\PrintSoftware\AutocadPrinting\GetVersion\obj\Release\GetVersion.pdb

@@ -26,6 +26,7 @@ namespace AutocadPrinting
 
         public PrintForm()
         {
+            writeError("Enter Init 1");
             if(File.Exists(AppDomain.CurrentDomain.BaseDirectory + "\\" + errorText))
             {
                 File.Delete(AppDomain.CurrentDomain.BaseDirectory + "\\" + errorText);
@@ -35,6 +36,7 @@ namespace AutocadPrinting
             InitializeComponent();
             fileTypeComboBox.SelectedIndex = 0;
 
+            writeError("Enter Init 2");
             string[] styleCTB = File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + "styles.txt");
 
             styleComboBox.Items.AddRange(styleCTB);
@@ -47,6 +49,7 @@ namespace AutocadPrinting
             orientationComboBox.Items.AddRange(orientationList.ToArray());
             orientationComboBox.SelectedIndex = 0;
 
+            writeError("Enter Init 3");
 
             outPutLocationTextBox.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\out.pdf";
             //clean temp folder
@@ -54,6 +57,7 @@ namespace AutocadPrinting
             {
                 Directory.Delete(Path.GetTempPath() + folderTemp, recursive: true);
             }
+            writeError("Exit Init");
 
         }
 
@@ -66,6 +70,8 @@ namespace AutocadPrinting
         // Add requiredFile (doesn't work so far)
         private void PrintForm_Load(object sender, EventArgs e)
         {
+            writeError("Enter Load 1");
+
             //ErrorReport.getError();
 
             if (!FindAccoreConsole.findAccoreConsole(out accoreConsolePath, out cadVer))
@@ -80,6 +86,8 @@ namespace AutocadPrinting
             {
                 cadVersionsComboBox.Items.Add(year);
             }
+
+            writeError("Enter Load 2");
 
             if (File.Exists(Path.GetTempPath() + currentChosenAutocad))
             {
@@ -97,12 +105,15 @@ namespace AutocadPrinting
                 cadVersionsComboBox.SelectedIndex = 0;
             }
 
+            writeError("Exit Load");
+
             //InstallRequiredFiles.addpc3AndctbFile(cadVersionsComboBox.SelectedItem.ToString());
 
         }
 
         private void AddLayoutsToGridView(List<string> filePaths)
         {
+            writeError("Enter AddLayoutsToGridView 1");
             getWindowPostion();
             string basePath = AppDomain.CurrentDomain.BaseDirectory;
             Process process = Process.Start(basePath + "LayoutBuffering.exe");
@@ -112,6 +123,7 @@ namespace AutocadPrinting
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
 
+            writeError("Enter AddLayoutsToGridView 2");
 
             foreach (string fileName in filePaths)
             {
@@ -131,6 +143,9 @@ namespace AutocadPrinting
                 File.Delete(Path.GetTempPath() + folderTemp + "\\xrefList.txt");
                 
             }
+
+            writeError("Enter AddLayoutsToGridView 3");
+
             process.Kill();
             if (File.Exists(Path.GetTempPath() + "printFormPosition.txt"))
             {
@@ -139,10 +154,13 @@ namespace AutocadPrinting
             this.ShowIcon = true;
             this.ShowInTaskbar = true;
             WindowState = FormWindowState.Normal;
+
+            writeError("Exit AddLayoutsToGridView");
         }
-        
+
         private void AddButton_Click(object sender, EventArgs e)
         {
+            writeError("Enter AddButton_Click 1");
 
             OpenFileDialog fileBrowser = new OpenFileDialog();
             fileBrowser.Multiselect = true;
@@ -161,7 +179,12 @@ namespace AutocadPrinting
 
                 List<string> filePaths = new List<string>(fileBrowser.FileNames);
 
+                writeError("Enter AddButton_Click 2");
+
                 AddLayoutsToGridView(filePaths);
+
+                writeError("Exit AddButton_Click");
+
 
             }
         }
@@ -169,10 +192,15 @@ namespace AutocadPrinting
         // Check version of *.dwg, make sure current autocad can read it.
         private bool canGetLayOut(ref OpenFileDialog fileBrowser)
         {
+            writeError("Enter canGetLayOut 1");
+
             bool check = true;
             int i = 1;
             messageTextBox.Clear();
             string usingCadCode = findAuToCadCode(cadVersionsComboBox.SelectedItem.ToString());
+
+            writeError("Enter canGetLayOut 2");
+
             foreach (string fileName in fileBrowser.FileNames)
             {
                 messageTextBox.Text += i.ToString() + ". " + Path.GetFileName(fileName) + "---[CAD VERSION: ";
@@ -187,6 +215,9 @@ namespace AutocadPrinting
                 messageTextBox.Text += "\n";
                 i++;
             }
+
+            writeError("Enter canGetLayOut 3");
+
             return check;
         }
 
@@ -196,6 +227,7 @@ namespace AutocadPrinting
             int i = 1;
             messageTextBox.Clear();
             string usingCadCode = findAuToCadCode(cadVersionsComboBox.SelectedItem.ToString());
+
             foreach (string fileName in paths)
             {
                 messageTextBox.Text += i.ToString() + ". " + Path.GetFileName(fileName) + "---[CAD VERSION: ";
@@ -221,6 +253,8 @@ namespace AutocadPrinting
 
         private void cadVersionsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            writeError("cadVersionsComboBox_SelectedIndexChanged 1");
+
             accoreconsoleLocationTextBox.Text = accoreConsolePath + "\\AutoCAD " + cadVersionsComboBox.Text + "\\accoreconsole.exe";
 
             string[] plotterSizes = File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + "paperPlotSizes.txt");
@@ -230,11 +264,15 @@ namespace AutocadPrinting
                 return;
             }
 
+            writeError("cadVersionsComboBox_SelectedIndexChanged 2");
+
             List<string> defaultPaperSize = new List<string>();
             foreach (string str in plotterSizes)
             {
                 defaultPaperSize.Add(str.Trim());
             }
+
+            writeError("cadVersionsComboBox_SelectedIndexChanged 3");
 
             List<string> currPaperSize = GetPaperSizeSetUp.GetPaperSize(accoreconsoleLocationTextBox.Text);
             if (currPaperSize == null || currPaperSize.Count == 0)
@@ -252,9 +290,10 @@ namespace AutocadPrinting
                 }
             }
             int temp = -1;
-                
 
-            if(PlotStylesComboBox.SelectedItem != null)
+            writeError("cadVersionsComboBox_SelectedIndexChanged 4");
+
+            if (PlotStylesComboBox.SelectedItem != null)
             {
                 temp = PlotStylesComboBox.SelectedIndex;
             }
@@ -266,8 +305,13 @@ namespace AutocadPrinting
             else
                 PlotStylesComboBox.SelectedIndex = temp;
 
+            writeError("cadVersionsComboBox_SelectedIndexChanged 5");
+
             InstallRequiredFiles.addpc3AndctbFile(cadVersionsComboBox.SelectedItem.ToString());
             File.WriteAllText(Path.GetTempPath() + currentChosenAutocad, cadVersionsComboBox.SelectedIndex.ToString());
+
+            writeError("cadVersionsComboBox_SelectedIndexChanged 6");
+
         }
 
         private void fileTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -277,9 +321,15 @@ namespace AutocadPrinting
 
         private void accoreconsoleBrowserButton_Click(object sender, EventArgs e)
         {
+            writeError("accoreconsoleBrowserButton_Click 1");
+
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.FileName = "accoreconsole";
             openFileDialog.Filter = "Executable Files |*.exe";
+
+            writeError("accoreconsoleBrowserButton_Click 1");
+
+
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
 
@@ -292,6 +342,7 @@ namespace AutocadPrinting
 
         private void LocationButton_Click(object sender, EventArgs e)
         {
+            writeError("LocationButton_Click 1");
 
             using (var fbd = new FolderBrowserDialog())
             {
@@ -318,11 +369,14 @@ namespace AutocadPrinting
                     outPutLocationTextBox.Text = tempOutPutFile;
                 }
             }
-            
+            writeError("LocationButton_Click 2");
+
         }
 
         private void dwgGridView_KeyDown(object sender, KeyEventArgs e)
         {
+            writeError("dwgGridView_KeyDown 1");
+
             if (Keys.Delete == e.KeyCode)
             {
                 DataGridViewSelectedRowCollection rc = dwgGridView.SelectedRows;
@@ -330,6 +384,7 @@ namespace AutocadPrinting
                 {
                     if(r.Cells[2].Value == null)
                     {
+                        writeError("dwgGridView_KeyDown 2");
                         int i = dwgGridView.Rows.IndexOf(r);
                         
                         //remove blank row, ignore
@@ -352,8 +407,10 @@ namespace AutocadPrinting
                         dwgGridView.Rows.RemoveAt(i-1);
                         continue;
                     }
+
                     else if (r.Cells[2].Value != null)
                     {
+                        writeError("dwgGridView_KeyDown 2.1");
                         bool run = true;
                         int index = dwgGridView.Rows.IndexOf(r);
                         int j = index;
@@ -380,6 +437,8 @@ namespace AutocadPrinting
                         dwgGridView.Rows.Remove(r);
                     }
                 }
+                writeError("dwgGridView_KeyDown 3");
+
                 e.Handled = true;
                 PlotStylesComboBox.SelectedIndex = gettingSizeOfPaper();
             }
@@ -387,6 +446,8 @@ namespace AutocadPrinting
 
         private void minusButton_Click(object sender, EventArgs e)
         {
+            writeError("miniusButton_Click 1");
+
             KeyEventArgs e1 = new KeyEventArgs(Keys.Delete);
             dwgGridView_KeyDown(sender, e1);
         }
@@ -440,6 +501,7 @@ namespace AutocadPrinting
 
         private void swapGridRow(int a, int b)
         {
+
             var r2 = dwgGridView.Rows[a];
             var r1 = dwgGridView.Rows[b];
             dwgGridView.Rows.Remove(r1);
@@ -560,6 +622,8 @@ namespace AutocadPrinting
 
         private void publishButton_Click(object sender, EventArgs e)
         {
+            writeError("PublishButton_Click 1");
+
             if (checkCondition())
             {
                 //ErrorReport.getError();
@@ -575,7 +639,12 @@ namespace AutocadPrinting
                 this.ShowIcon = false;
                 this.ShowInTaskbar = false;
                 //TESTING
+                writeError("PublishButton_Click 2");
+
                 PrintPdf2.plotting(printList, accoreconsoleLocationTextBox.Text, PlotStylesComboBox.SelectedItem.ToString(), orientationComboBox.SelectedItem.ToString(), ref showConsoleCheckBox, styleComboBox.SelectedItem.ToString());
+
+                writeError("PublishButton_Click 3");
+
 
                 process.Kill();
                 process.WaitForExit();
